@@ -35,7 +35,16 @@ async function loadClientIntents() {
 document.addEventListener("DOMContentLoaded", () => {
   loadClientIntents();
   checkAgentStatus();
-  if (userInput) userInput.focus();
+  if (userInput) {
+    userInput.addEventListener("focus", () => {
+      setTimeout(scrollToBottom, 250);
+    });
+  }
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", () => {
+      setTimeout(scrollToBottom, 100);
+    });
+  }
 });
 
 // Remote Production Backend on Render
@@ -64,7 +73,9 @@ function handleUserSubmit(event) {
 
 // Starter chips click
 function sendStarterPrompt(button) {
-  const text = button.innerText.replace(/^[^\w\s]+/, '').trim();
+  const label = button.querySelector(".chip-label");
+  const raw = label ? label.innerText : button.innerText;
+  const text = raw.replace(/^[^\w\s]+/, '').replace(/›$/, '').trim();
   sendMessage(text);
 }
 

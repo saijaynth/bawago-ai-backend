@@ -322,7 +322,9 @@ class IsolatedAgentHandler(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header("Content-Type", mime_type)
         self.send_header("Content-Length", str(len(content)))
-        self.send_header("Cache-Control", "no-cache")
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         self.end_headers()
         self.wfile.write(content)
 
@@ -342,7 +344,9 @@ class IsolatedAgentHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "text/plain; charset=utf-8" if path == "/healthz" else "application/json" if path.startswith("/api/") else "text/html; charset=utf-8")
             self.send_header("Access-Control-Allow-Origin", "*")
-            self.send_header("Cache-Control", "no-cache")
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
             self.end_headers()
         elif os.path.exists(os.path.join(STATIC_DIR, path.lstrip("/"))):
             self.send_response(200)
@@ -360,7 +364,9 @@ class IsolatedAgentHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "text/plain; charset=utf-8")
             self.send_header("Access-Control-Allow-Origin", "*")
-            self.send_header("Cache-Control", "no-cache")
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
             body = b"OK"
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
