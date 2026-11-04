@@ -1,0 +1,2837 @@
+[
+  {
+    "id": "chat-hi",
+    "category": "General",
+    "title": "Hi / Hello",
+    "canonical_question": "Hi / Hello",
+    "keywords": [
+      "hi",
+      "hello",
+      "hey",
+      "hiya",
+      "hola",
+      "namaste",
+      "vanakkam",
+      "halo",
+      "greetings",
+      "yo"
+    ],
+    "answer": "Hello there! 👋 Welcome to BawaGo. I am BawaBot, your 24/7 AI guide to our 7 peer-to-peer services (Ride, Parcel, Baggage, Crave Food, Host, Wish, Fresh) and SafeVault Escrow.",
+    "paraphrases": [
+      "Hi / Hello",
+      "hi",
+      "hello",
+      "hey",
+      "hiya",
+      "hola",
+      "namaste"
+    ]
+  },
+  {
+    "id": "chat-how-are-you",
+    "category": "General",
+    "title": "How are you?",
+    "canonical_question": "How are you?",
+    "keywords": [
+      "how are you",
+      "how r u",
+      "how are you doing",
+      "hows it going",
+      "how are things",
+      "whats up",
+      "sup"
+    ],
+    "answer": "I'm doing great and running at full speed! 🚀 Ready to help you travel cheaper, send packages safely, enjoy mom-made meals, or earn money along your daily commute. How can I assist you today?",
+    "paraphrases": [
+      "How are you?",
+      "how are you",
+      "how r u",
+      "how are you doing",
+      "hows it going",
+      "how are things",
+      "whats up"
+    ]
+  },
+  {
+    "id": "chat-good-morning",
+    "category": "General",
+    "title": "Good morning",
+    "canonical_question": "Good morning",
+    "keywords": [
+      "good morning",
+      "morning",
+      "gm",
+      "suprabhat"
+    ],
+    "answer": "Good morning! ☀️ Wishing you a wonderful and productive day ahead! Planning a daily commute, sending morning fresh produce, or ordering fresh breakfast tiffins? BawaGo is here to help.",
+    "paraphrases": [
+      "Good morning",
+      "good morning",
+      "morning",
+      "gm",
+      "suprabhat"
+    ]
+  },
+  {
+    "id": "chat-good-afternoon",
+    "category": "General",
+    "title": "Good afternoon",
+    "canonical_question": "Good afternoon",
+    "keywords": [
+      "good afternoon",
+      "afternoon",
+      "good noon"
+    ],
+    "answer": "Good afternoon! 🌤️ Hope your day is going smoothly. Need an afternoon parcel delivery, a quick ride across town, or a wholesome home-cooked lunch? Let me know what you need!",
+    "paraphrases": [
+      "Good afternoon",
+      "good afternoon",
+      "afternoon",
+      "good noon"
+    ]
+  },
+  {
+    "id": "chat-good-evening",
+    "category": "General",
+    "title": "Good evening",
+    "canonical_question": "Good evening",
+    "keywords": [
+      "good evening",
+      "evening",
+      "shubh sandhya"
+    ],
+    "answer": "Good evening! 🌆 Heading home from work or planning inter-city weekend travel? BawaGo connects you with trusted verified neighbors and travelers along your route.",
+    "paraphrases": [
+      "Good evening",
+      "good evening",
+      "evening",
+      "shubh sandhya"
+    ]
+  },
+  {
+    "id": "chat-good-night",
+    "category": "General",
+    "title": "Good night",
+    "canonical_question": "Good night",
+    "keywords": [
+      "good night",
+      "night",
+      "gn",
+      "sweet dreams"
+    ],
+    "answer": "Good night! 🌙 Rest well. Remember that BawaBot and our 24/7 highway emergency network are always active around the clock whenever you need us.",
+    "paraphrases": [
+      "Good night",
+      "good night",
+      "night",
+      "gn",
+      "sweet dreams"
+    ]
+  },
+  {
+    "id": "chat-who-are-you",
+    "category": "General",
+    "title": "Who are you?",
+    "canonical_question": "Who are you?",
+    "keywords": [
+      "who are you",
+      "who r u",
+      "what is your name",
+      "tell me about yourself",
+      "what are you",
+      "identify yourself"
+    ],
+    "answer": "I am BawaBot 🤖, the official AI virtual concierge for the BawaGo community platform. I am trained on all 7 BawaGo services, escrow workflows, and platform policies to give you instant, accurate help.",
+    "paraphrases": [
+      "Who are you?",
+      "who are you",
+      "who r u",
+      "what is your name",
+      "tell me about yourself",
+      "what are you",
+      "identify yourself"
+    ]
+  },
+  {
+    "id": "chat-what-can-you-do",
+    "category": "General",
+    "title": "What can you do?",
+    "canonical_question": "What can you do?",
+    "keywords": [
+      "what can you do",
+      "how can you help",
+      "capabilities",
+      "features",
+      "what do you do",
+      "help me"
+    ],
+    "answer": "I can guide you through every feature of BawaGo! From finding empty carpool seats and shipping packages to booking spare luggage allowance, homemade meals, unique homestays, custom souvenirs, and farm produce.",
+    "paraphrases": [
+      "What can you do?",
+      "what can you do",
+      "how can you help",
+      "capabilities",
+      "features",
+      "what do you do",
+      "help me"
+    ]
+  },
+  {
+    "id": "chat-thank-you",
+    "category": "General",
+    "title": "Thank you / Thanks",
+    "canonical_question": "Thank you / Thanks",
+    "keywords": [
+      "thank you",
+      "thanks",
+      "thx",
+      "thank u",
+      "ty",
+      "dhanyawad",
+      "shukriya",
+      "terima kasih",
+      "much appreciated"
+    ],
+    "answer": "You're very welcome! 😊 It is my absolute pleasure to help. Feel free to ask whenever you have questions about rides, food, deliveries, or payments.",
+    "paraphrases": [
+      "Thank you / Thanks",
+      "thank you",
+      "thanks",
+      "thx",
+      "thank u",
+      "ty",
+      "dhanyawad"
+    ]
+  },
+  {
+    "id": "chat-awesome",
+    "category": "General",
+    "title": "You are awesome / Great",
+    "canonical_question": "You are awesome / Great",
+    "keywords": [
+      "awesome",
+      "great",
+      "cool",
+      "nice",
+      "superb",
+      "amazing",
+      "good job",
+      "love it",
+      "fantastic",
+      "excellent"
+    ],
+    "answer": "Thank you so much! ✨ Our mission at BawaGo is to make peer-to-peer travel and community sharing effortless, secure, and affordable for everyone.",
+    "paraphrases": [
+      "You are awesome / Great",
+      "awesome",
+      "great",
+      "cool",
+      "nice",
+      "superb",
+      "amazing"
+    ]
+  },
+  {
+    "id": "chat-bye",
+    "category": "General",
+    "title": "Goodbye / Bye",
+    "canonical_question": "Goodbye / Bye",
+    "keywords": [
+      "bye",
+      "goodbye",
+      "see you",
+      "cya",
+      "alvida",
+      "tata",
+      "catch you later",
+      "take care"
+    ],
+    "answer": "Goodbye for now! 👋 Have a wonderful day ahead. Whenever you need a ride, parcel delivery, or home-cooked meal, BawaBot is just one tap away!",
+    "paraphrases": [
+      "Goodbye / Bye",
+      "bye",
+      "goodbye",
+      "see you",
+      "cya",
+      "alvida",
+      "tata"
+    ]
+  },
+  {
+    "id": "chat-are-you-real",
+    "category": "General",
+    "title": "Are you real or a bot?",
+    "canonical_question": "Are you real or a bot?",
+    "keywords": [
+      "are you real",
+      "are you human",
+      "are you a robot",
+      "is this ai",
+      "are you a bot",
+      "human agent"
+    ],
+    "answer": "I am an intelligent AI assistant built specifically for BawaGo! If you ever need human support for complex disputes or specific account escalations, our dedicated 24/7 human support team is also available.",
+    "paraphrases": [
+      "Are you real or a bot?",
+      "are you real",
+      "are you human",
+      "are you a robot",
+      "is this ai",
+      "are you a bot",
+      "human agent"
+    ]
+  },
+  {
+    "id": "chat-joke",
+    "category": "General",
+    "title": "Tell me a joke",
+    "canonical_question": "Tell me a joke",
+    "keywords": [
+      "joke",
+      "make me laugh",
+      "funny",
+      "tell me a joke",
+      "humor",
+      "bored"
+    ],
+    "answer": "Here's one for travelers! 😄 Why did the luggage never get lost? Because it had peer-to-peer baggage tracking and SafeVault Escrow protecting its every move! 🧳✨",
+    "paraphrases": [
+      "Tell me a joke",
+      "joke",
+      "make me laugh",
+      "funny",
+      "tell me a joke",
+      "humor",
+      "bored"
+    ]
+  },
+  {
+    "id": "chat-location",
+    "category": "General",
+    "title": "Where is BawaGo available?",
+    "canonical_question": "Where is BawaGo available?",
+    "keywords": [
+      "where are you located",
+      "where does bawago operate",
+      "which cities",
+      "countries",
+      "location",
+      "coverage",
+      "global"
+    ],
+    "answer": "BawaGo operates across major urban transit corridors, inter-city highways, and international flight routes in India, Southeast Asia (Indonesia, Vietnam, Thailand, Malaysia, Philippines), and expanding global corridors.",
+    "paraphrases": [
+      "Where is BawaGo available?",
+      "where are you located",
+      "where does bawago operate",
+      "which cities",
+      "countries",
+      "location",
+      "coverage"
+    ]
+  },
+  {
+    "id": "chat-what-is-bawago",
+    "category": "General",
+    "title": "What is BawaGo?",
+    "canonical_question": "What is BawaGo?",
+    "keywords": [
+      "what is bawago",
+      "explain bawago",
+      "about bawago",
+      "bgo",
+      "company overview",
+      "platform overview"
+    ],
+    "answer": "BawaGo is a decentralized peer-to-peer intermediary platform that connects individuals with empty journey capacity (seats, cargo space, extra luggage kilos, home cooking, spare rooms) directly with people who need them.",
+    "paraphrases": [
+      "What is BawaGo?",
+      "what is bawago",
+      "explain bawago",
+      "about bawago",
+      "bgo",
+      "company overview",
+      "platform overview"
+    ]
+  },
+  {
+    "id": "acc-signup",
+    "category": "Account",
+    "title": "How do I create an account on BawaGo?",
+    "canonical_question": "How do I create an account on BawaGo?",
+    "keywords": [
+      "how to sign up",
+      "create account",
+      "register",
+      "new user",
+      "join bawago",
+      "registration process"
+    ],
+    "answer": "Signing up is quick and free! Click the 'Get Started' or 'Sign In' button at the top of any page, enter your mobile phone number or email, and verify with a secure one-time password (OTP).",
+    "paraphrases": [
+      "How do I create an account on BawaGo?",
+      "how to sign up",
+      "create account",
+      "register",
+      "new user",
+      "join bawago",
+      "registration process"
+    ]
+  },
+  {
+    "id": "acc-free",
+    "category": "Account",
+    "title": "Is BawaGo free to use?",
+    "canonical_question": "Is BawaGo free to use?",
+    "keywords": [
+      "is bawago free",
+      "free to join",
+      "membership fee",
+      "subscription",
+      "cost to register",
+      "charges"
+    ],
+    "answer": "Yes! Creating an account and browsing opportunities on BawaGo is 100% free with zero monthly subscription fees. You only pay for the specific services you book, with complete upfront pricing.",
+    "paraphrases": [
+      "Is BawaGo free to use?",
+      "is bawago free",
+      "free to join",
+      "membership fee",
+      "subscription",
+      "cost to register",
+      "charges"
+    ]
+  },
+  {
+    "id": "acc-login",
+    "category": "Account",
+    "title": "How do I log in?",
+    "canonical_question": "How do I log in?",
+    "keywords": [
+      "login",
+      "sign in",
+      "log in",
+      "access account",
+      "signin"
+    ],
+    "answer": "Click the 'Sign In' button on the top navigation bar. Enter your registered email address or mobile number, then input your password or request an instant login OTP.",
+    "paraphrases": [
+      "How do I log in?",
+      "login",
+      "sign in",
+      "log in",
+      "access account",
+      "signin"
+    ]
+  },
+  {
+    "id": "acc-reset-pass",
+    "category": "Account",
+    "title": "How do I reset my password?",
+    "canonical_question": "How do I reset my password?",
+    "keywords": [
+      "forgot password",
+      "reset password",
+      "change password",
+      "recover account",
+      "lost password"
+    ],
+    "answer": "On the login screen, click 'Forgot Password?'. Enter your registered email or phone number. We will send a secure verification code and a link to reset your password safely.",
+    "paraphrases": [
+      "How do I reset my password?",
+      "forgot password",
+      "reset password",
+      "change password",
+      "recover account",
+      "lost password"
+    ]
+  },
+  {
+    "id": "acc-language",
+    "category": "Account",
+    "title": "How do I change the website language?",
+    "canonical_question": "How do I change the website language?",
+    "keywords": [
+      "change language",
+      "select language",
+      "hindi",
+      "tamil",
+      "telugu",
+      "bengali",
+      "marathi",
+      "spanish",
+      "french",
+      "arabic",
+      "bahasa"
+    ],
+    "answer": "Click the language selector globe icon 🌐 in the top navigation bar. BawaGo supports 35+ global and regional Indian languages including Hindi, Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati, Kannada, Spanish, French, and Bahasa.",
+    "paraphrases": [
+      "How do I change the website language?",
+      "change language",
+      "select language",
+      "hindi",
+      "tamil",
+      "telugu",
+      "bengali"
+    ]
+  },
+  {
+    "id": "acc-theme",
+    "category": "Account",
+    "title": "How do I switch between Dark and Light mode?",
+    "canonical_question": "How do I switch between Dark and Light mode?",
+    "keywords": [
+      "dark mode",
+      "light mode",
+      "theme",
+      "color scheme",
+      "night mode",
+      "switch theme"
+    ],
+    "answer": "You can toggle themes or customize your interface colors via the theme settings in the top navigation bar or under your account settings. Choose between sleek dark mode or crisp light mode.",
+    "paraphrases": [
+      "How do I switch between Dark and Light mode?",
+      "dark mode",
+      "light mode",
+      "theme",
+      "color scheme",
+      "night mode",
+      "switch theme"
+    ]
+  },
+  {
+    "id": "acc-update-profile",
+    "category": "Account",
+    "title": "How do I update my profile details?",
+    "canonical_question": "How do I update my profile details?",
+    "keywords": [
+      "update profile",
+      "edit profile",
+      "change name",
+      "change phone",
+      "change email",
+      "profile settings"
+    ],
+    "answer": "Go to your Account Dashboard by clicking on your avatar at the top right, then select 'Settings' or 'Profile'. Here you can update your name, photo, bio, emergency contacts, and notification preferences.",
+    "paraphrases": [
+      "How do I update my profile details?",
+      "update profile",
+      "edit profile",
+      "change name",
+      "change phone",
+      "change email",
+      "profile settings"
+    ]
+  },
+  {
+    "id": "acc-delete",
+    "category": "Account",
+    "title": "How do I delete or close my account?",
+    "canonical_question": "How do I delete or close my account?",
+    "keywords": [
+      "delete account",
+      "close account",
+      "deactivate account",
+      "remove profile",
+      "delete data"
+    ],
+    "answer": "You can request account deactivation from Dashboard > Settings > Security. Please ensure all active bookings are completed and any remaining BawaGo Wallet balance has been withdrawn to your bank first.",
+    "paraphrases": [
+      "How do I delete or close my account?",
+      "delete account",
+      "close account",
+      "deactivate account",
+      "remove profile",
+      "delete data"
+    ]
+  },
+  {
+    "id": "ride-booking",
+    "category": "Ride",
+    "title": "How do I book a ride on BawaGo?",
+    "canonical_question": "How do I book a ride on BawaGo?",
+    "keywords": [
+      "book a ride",
+      "how to book ride",
+      "find ride",
+      "get a cab",
+      "carpool booking",
+      "reserve seat"
+    ],
+    "answer": "Go to the BawaGo Ride page (/ride). Enter your pickup point, drop location, journey date, and number of passengers. Browse available verified drivers and shared carpools, select your preferred vehicle, and confirm your booking.",
+    "paraphrases": [
+      "How do I book a ride on BawaGo?",
+      "book a ride",
+      "how to book ride",
+      "find ride",
+      "get a cab",
+      "carpool booking",
+      "reserve seat"
+    ]
+  },
+  {
+    "id": "ride-vehicle-types",
+    "category": "Ride",
+    "title": "What types of vehicles are available on BawaGo Ride?",
+    "canonical_question": "What types of vehicles are available on BawaGo Ride?",
+    "keywords": [
+      "vehicle types",
+      "car options",
+      "bike ride",
+      "suv",
+      "tempo",
+      "van",
+      "taxi models"
+    ],
+    "answer": "BawaGo Ride supports multiple vehicle classes: Bikes (fast single commuter trips), Cars/Sedans (daily city commutes), SUVs (family & highway trips), MPVs/Vans (group travel), and Tempos (small commercial cargo).",
+    "paraphrases": [
+      "What types of vehicles are available on BawaGo Ride?",
+      "vehicle types",
+      "car options",
+      "bike ride",
+      "suv",
+      "tempo",
+      "van"
+    ]
+  },
+  {
+    "id": "ride-fare",
+    "category": "Ride",
+    "title": "How is the ride fare calculated?",
+    "canonical_question": "How is the ride fare calculated?",
+    "keywords": [
+      "ride fare",
+      "pricing for rides",
+      "how much does ride cost",
+      "carpool cost",
+      "km rate"
+    ],
+    "answer": "Carpooling fares are calculated based on distance, route fuel-sharing formulas, and vehicle class. Because drivers are offsetting existing travel costs rather than operating traditional taxi monopolies, fares are up to 60% cheaper.",
+    "paraphrases": [
+      "How is the ride fare calculated?",
+      "ride fare",
+      "pricing for rides",
+      "how much does ride cost",
+      "carpool cost",
+      "km rate"
+    ]
+  },
+  {
+    "id": "ride-schedule",
+    "category": "Ride",
+    "title": "Can I schedule a ride in advance?",
+    "canonical_question": "Can I schedule a ride in advance?",
+    "keywords": [
+      "schedule ride",
+      "book in advance",
+      "pre book ride",
+      "future ride",
+      "advance booking"
+    ],
+    "answer": "Yes! You can schedule rides minutes, days, or even weeks in advance. Inter-city carpools are frequently posted well ahead of time by drivers planning regular weekend or holiday trips.",
+    "paraphrases": [
+      "Can I schedule a ride in advance?",
+      "schedule ride",
+      "book in advance",
+      "pre book ride",
+      "future ride",
+      "advance booking"
+    ]
+  },
+  {
+    "id": "ride-share-tracking",
+    "category": "Ride",
+    "title": "Can I share live ride tracking with my family?",
+    "canonical_question": "Can I share live ride tracking with my family?",
+    "keywords": [
+      "live tracking",
+      "share location",
+      "track ride",
+      "gps tracking",
+      "share trip with family"
+    ],
+    "answer": "Yes! Every BawaGo Ride comes with real-time GPS tracking. You can share a secure live trip link with family or friends via WhatsApp or SMS so they can monitor your route and ETA in real time.",
+    "paraphrases": [
+      "Can I share live ride tracking with my family?",
+      "live tracking",
+      "share location",
+      "track ride",
+      "gps tracking",
+      "share trip with family"
+    ]
+  },
+  {
+    "id": "ride-driver-late",
+    "category": "Ride",
+    "title": "What if my driver is late or does not show up?",
+    "canonical_question": "What if my driver is late or does not show up?",
+    "keywords": [
+      "driver late",
+      "driver no show",
+      "driver did not arrive",
+      "missed ride",
+      "driver cancelled"
+    ],
+    "answer": "If a driver fails to arrive at the agreed pickup point or cancels last minute, you can cancel with zero penalty. SafeVault Escrow instantly refunds 100% of your funds to your BawaGo Wallet, and our matching engine suggests alternative rides.",
+    "paraphrases": [
+      "What if my driver is late or does not show up?",
+      "driver late",
+      "driver no show",
+      "driver did not arrive",
+      "missed ride",
+      "driver cancelled"
+    ]
+  },
+  {
+    "id": "ride-cancellation-policy",
+    "category": "Ride",
+    "title": "What is the cancellation policy for rides?",
+    "canonical_question": "What is the cancellation policy for rides?",
+    "keywords": [
+      "cancel ride",
+      "ride cancellation policy",
+      "refund on cancellation",
+      "can I cancel my trip"
+    ],
+    "answer": "You can cancel a ride anytime from your dashboard. Cancellations made more than 2 hours prior to scheduled departure receive a full 100% refund. Late cancellations may incur a nominal compensation fee for the driver.",
+    "paraphrases": [
+      "What is the cancellation policy for rides?",
+      "cancel ride",
+      "ride cancellation policy",
+      "refund on cancellation",
+      "can I cancel my trip"
+    ]
+  },
+  {
+    "id": "ride-insurance",
+    "category": "Ride",
+    "title": "Are rides insured on BawaGo?",
+    "canonical_question": "Are rides insured on BawaGo?",
+    "keywords": [
+      "ride insurance",
+      "is trip insured",
+      "accidental cover",
+      "safety insurance",
+      "passenger insurance"
+    ],
+    "answer": "Yes. Every verified passenger ride on BawaGo is covered by comprehensive third-party transit insurance in partnership with leading underwriters, providing accidental medical coverage and personal indemnity.",
+    "paraphrases": [
+      "Are rides insured on BawaGo?",
+      "ride insurance",
+      "is trip insured",
+      "accidental cover",
+      "safety insurance",
+      "passenger insurance"
+    ]
+  },
+  {
+    "id": "ride-offer-seats",
+    "category": "Ride",
+    "title": "How do I offer empty seats as a driver?",
+    "canonical_question": "How do I offer empty seats as a driver?",
+    "keywords": [
+      "offer seats",
+      "become driver",
+      "post ride",
+      "share empty seats",
+      "earn as driver",
+      "list carpool"
+    ],
+    "answer": "Click 'Offer Your Capacity' > 'Ride' on the homepage or provider portal. Enter your starting point, destination, date, available seats, and suggested cost share per seat. Verified commuters can then book seats with you.",
+    "paraphrases": [
+      "How do I offer empty seats as a driver?",
+      "offer seats",
+      "become driver",
+      "post ride",
+      "share empty seats",
+      "earn as driver",
+      "list carpool"
+    ]
+  },
+  {
+    "id": "ride-driver-verification",
+    "category": "Ride",
+    "title": "How are drivers verified on BawaGo?",
+    "canonical_question": "How are drivers verified on BawaGo?",
+    "keywords": [
+      "driver verification",
+      "are drivers safe",
+      "driver background check",
+      "driving license check"
+    ],
+    "answer": "All drivers must upload a valid government driving license, vehicle registration certificate (RC), active vehicle insurance, and pass government photo ID (Aadhaar / Passport) verification before offering rides.",
+    "paraphrases": [
+      "How are drivers verified on BawaGo?",
+      "driver verification",
+      "are drivers safe",
+      "driver background check",
+      "driving license check"
+    ]
+  },
+  {
+    "id": "ride-intercity",
+    "category": "Ride",
+    "title": "Can I book inter-city rides between different states?",
+    "canonical_question": "Can I book inter-city rides between different states?",
+    "keywords": [
+      "inter city ride",
+      "long distance carpool",
+      "travel to another city",
+      "outstation ride"
+    ],
+    "answer": "Yes! BawaGo specializes in inter-city highway corridors (e.g., Mumbai-Pune, Bangalore-Chennai, Delhi-Jaipur, Jakarta-Bandung). Booking long-distance carpools saves money and reduces highway carbon emissions.",
+    "paraphrases": [
+      "Can I book inter-city rides between different states?",
+      "inter city ride",
+      "long distance carpool",
+      "travel to another city",
+      "outstation ride"
+    ]
+  },
+  {
+    "id": "ride-sos",
+    "category": "Ride",
+    "title": "What is the Highway Emergency SOS button?",
+    "canonical_question": "What is the Highway Emergency SOS button?",
+    "keywords": [
+      "emergency sos",
+      "sos button",
+      "highway emergency",
+      "police help",
+      "breakdown assistance"
+    ],
+    "answer": "During any active ride, a prominent red 'Emergency SOS' button is visible on your screen. Tapping it instantly shares your live coordinates with local emergency dispatchers, your designated emergency contacts, and nearby highway breakdown garages.",
+    "paraphrases": [
+      "What is the Highway Emergency SOS button?",
+      "emergency sos",
+      "sos button",
+      "highway emergency",
+      "police help",
+      "breakdown assistance"
+    ]
+  },
+  {
+    "id": "parcel-send",
+    "category": "Parcel",
+    "title": "How do I send a parcel on BawaGo?",
+    "canonical_question": "How do I send a parcel on BawaGo?",
+    "keywords": [
+      "send parcel",
+      "courier service",
+      "ship package",
+      "send package",
+      "door to door courier"
+    ],
+    "answer": "Visit /parcel, enter the pickup and delivery addresses, choose package category (Documents, Gifts, Electronics, Goods), specify weight, and submit. You'll be matched with travelers heading in that exact direction for same-day express delivery.",
+    "paraphrases": [
+      "How do I send a parcel on BawaGo?",
+      "send parcel",
+      "courier service",
+      "ship package",
+      "send package",
+      "door to door courier"
+    ]
+  },
+  {
+    "id": "parcel-items-allowed",
+    "category": "Parcel",
+    "title": "What items can I send via BawaGo Parcel?",
+    "canonical_question": "What items can I send via BawaGo Parcel?",
+    "keywords": [
+      "items allowed",
+      "what can I send",
+      "package contents",
+      "can I send documents",
+      "books",
+      "clothes"
+    ],
+    "answer": "You can send documents, contracts, books, packaged clothes, gifts, non-perishable packaged goods, and personal belongings. Every parcel is subject to mutual visual inspection before handover.",
+    "paraphrases": [
+      "What items can I send via BawaGo Parcel?",
+      "items allowed",
+      "what can I send",
+      "package contents",
+      "can I send documents",
+      "books",
+      "clothes"
+    ]
+  },
+  {
+    "id": "parcel-prohibited",
+    "category": "Parcel",
+    "title": "What items are strictly prohibited in parcels?",
+    "canonical_question": "What items are strictly prohibited in parcels?",
+    "keywords": [
+      "prohibited items",
+      "banned items",
+      "forbidden goods",
+      "can I send liquids",
+      "hazardous materials"
+    ],
+    "answer": "Strictly forbidden items include: hazardous materials, flammable liquids, explosives, weapons, illegal substances, contraband, unsealed perishable items, and currency notes. Violations lead to immediate account termination and police reporting.",
+    "paraphrases": [
+      "What items are strictly prohibited in parcels?",
+      "prohibited items",
+      "banned items",
+      "forbidden goods",
+      "can I send liquids",
+      "hazardous materials"
+    ]
+  },
+  {
+    "id": "parcel-tracking",
+    "category": "Parcel",
+    "title": "How do I track my parcel in real time?",
+    "canonical_question": "How do I track my parcel in real time?",
+    "keywords": [
+      "track parcel",
+      "live parcel tracking",
+      "where is my package",
+      "courier status"
+    ],
+    "answer": "Once the traveler picks up your parcel and enters the pickup OTP, you will see a live map with real-time GPS tracking of the carrier's movement directly on your BawaGo Parcel dashboard.",
+    "paraphrases": [
+      "How do I track my parcel in real time?",
+      "track parcel",
+      "live parcel tracking",
+      "where is my package",
+      "courier status"
+    ]
+  },
+  {
+    "id": "parcel-otp",
+    "category": "Parcel",
+    "title": "What is Parcel OTP verification?",
+    "canonical_question": "What is Parcel OTP verification?",
+    "keywords": [
+      "parcel otp",
+      "delivery otp",
+      "pickup otp",
+      "how is handover verified"
+    ],
+    "answer": "BawaGo uses a 2-step OTP security system: A Pickup OTP confirms the carrier received the package from the sender, and a Delivery OTP is provided by the recipient upon safe delivery. Only after Delivery OTP entry is escrow payment released.",
+    "paraphrases": [
+      "What is Parcel OTP verification?",
+      "parcel otp",
+      "delivery otp",
+      "pickup otp",
+      "how is handover verified"
+    ]
+  },
+  {
+    "id": "parcel-insured",
+    "category": "Parcel",
+    "title": "Is my parcel insured against damage or loss?",
+    "canonical_question": "Is my parcel insured against damage or loss?",
+    "keywords": [
+      "parcel insurance",
+      "package protection",
+      "lost parcel",
+      "damaged package",
+      "is parcel insured"
+    ],
+    "answer": "Yes! Every standard parcel booked on BawaGo is protected by SafeVault Transit Cover against accidental damage, theft, or loss up to standard declaration limits. Enhanced value coverage is available for high-value items.",
+    "paraphrases": [
+      "Is my parcel insured against damage or loss?",
+      "parcel insurance",
+      "package protection",
+      "lost parcel",
+      "damaged package",
+      "is parcel insured"
+    ]
+  },
+  {
+    "id": "parcel-returning-empty",
+    "category": "Parcel",
+    "title": "What is returning-empty cargo capacity?",
+    "canonical_question": "What is returning-empty cargo capacity?",
+    "keywords": [
+      "returning empty",
+      "empty cargo",
+      "truck returning empty",
+      "tempo return trip",
+      "deadhead cargo"
+    ],
+    "answer": "Many commercial vans, tempos, and private vehicles return empty after delivering goods. BawaGo matches senders with these 'returning empty' vehicles, cutting transport costs by up to 50% while helping drivers monetize deadhead miles.",
+    "paraphrases": [
+      "What is returning-empty cargo capacity?",
+      "returning empty",
+      "empty cargo",
+      "truck returning empty",
+      "tempo return trip",
+      "deadhead cargo"
+    ]
+  },
+  {
+    "id": "parcel-earn",
+    "category": "Parcel",
+    "title": "Can I earn money by delivering parcels along my commute?",
+    "canonical_question": "Can I earn money by delivering parcels along my commute?",
+    "keywords": [
+      "earn carrying parcels",
+      "deliver packages to earn",
+      "courier partner",
+      "monetize commute with parcels"
+    ],
+    "answer": "Yes! If you travel between cities or commute across town daily, you can register as a verified carrier on BawaGo Parcel. Accept packages going in your direction and earn income without going out of your way.",
+    "paraphrases": [
+      "Can I earn money by delivering parcels along my commute?",
+      "earn carrying parcels",
+      "deliver packages to earn",
+      "courier partner",
+      "monetize commute with parcels"
+    ]
+  },
+  {
+    "id": "parcel-weight-limit",
+    "category": "Parcel",
+    "title": "What is the maximum weight and dimensions for parcels?",
+    "canonical_question": "What is the maximum weight and dimensions for parcels?",
+    "keywords": [
+      "parcel weight limit",
+      "max package size",
+      "heavy parcel",
+      "parcel dimensions",
+      "large boxes"
+    ],
+    "answer": "Bike carriers typically accept up to 5-10 kg. Car and SUV carriers take up to 30 kg, while commercial tempos and returning-empty vans can handle bulk goods up to several hundred kilograms depending on listed capacity.",
+    "paraphrases": [
+      "What is the maximum weight and dimensions for parcels?",
+      "parcel weight limit",
+      "max package size",
+      "heavy parcel",
+      "parcel dimensions",
+      "large boxes"
+    ]
+  },
+  {
+    "id": "parcel-cancellation",
+    "category": "Parcel",
+    "title": "Can I cancel a parcel pickup request?",
+    "canonical_question": "Can I cancel a parcel pickup request?",
+    "keywords": [
+      "cancel parcel",
+      "cancel courier",
+      "parcel refund",
+      "stop parcel delivery"
+    ],
+    "answer": "You can cancel a parcel request anytime before the carrier arrives for pickup. If cancelled before pickup, SafeVault Escrow automatically issues a 100% refund back to your BawaGo Wallet.",
+    "paraphrases": [
+      "Can I cancel a parcel pickup request?",
+      "cancel parcel",
+      "cancel courier",
+      "parcel refund",
+      "stop parcel delivery"
+    ]
+  },
+  {
+    "id": "baggage-overview",
+    "category": "Baggage",
+    "title": "How does BawaGo Baggage allowance pooling work?",
+    "canonical_question": "How does BawaGo Baggage allowance pooling work?",
+    "keywords": [
+      "baggage pooling",
+      "share luggage",
+      "airline baggage space",
+      "extra luggage",
+      "excess baggage fees"
+    ],
+    "answer": "Baggage pooling lets travelers with spare flight luggage allowance share their unused kilos with senders who need affordable shipping. Senders save up to 60% compared to airline excess baggage rates, and travelers earn money on flights they were already taking!",
+    "paraphrases": [
+      "How does BawaGo Baggage allowance pooling work?",
+      "baggage pooling",
+      "share luggage",
+      "airline baggage space",
+      "extra luggage",
+      "excess baggage fees"
+    ]
+  },
+  {
+    "id": "baggage-legal",
+    "category": "Baggage",
+    "title": "Is luggage sharing legal and safe?",
+    "canonical_question": "Is luggage sharing legal and safe?",
+    "keywords": [
+      "is baggage sharing legal",
+      "airline rules",
+      "airport security",
+      "is luggage pooling safe",
+      "customs"
+    ],
+    "answer": "BawaGo Baggage strictly complies with international civil aviation guidelines: Both the ticketed traveler and item owner must meet at the departures terminal, visually inspect every item together, verify contents against customs rules, and seal the bag.",
+    "paraphrases": [
+      "Is luggage sharing legal and safe?",
+      "is baggage sharing legal",
+      "airline rules",
+      "airport security",
+      "is luggage pooling safe",
+      "customs"
+    ]
+  },
+  {
+    "id": "baggage-sell-kilos",
+    "category": "Baggage",
+    "title": "How do I sell my unused flight baggage kilos?",
+    "canonical_question": "How do I sell my unused flight baggage kilos?",
+    "keywords": [
+      "sell baggage space",
+      "monetize flight luggage",
+      "extra flight kilos",
+      "earn from flight luggage"
+    ],
+    "answer": "If you have a flight ticket with 20kg or 30kg baggage allowance but only packed 10kg, you can list your spare kilos on BawaGo Baggage. Just enter your route, flight date, and available weight. Verified senders will book your space, and payments are protected in SafeVault.",
+    "paraphrases": [
+      "How do I sell my unused flight baggage kilos?",
+      "sell baggage space",
+      "monetize flight luggage",
+      "extra flight kilos",
+      "earn from flight luggage"
+    ]
+  },
+  {
+    "id": "baggage-banned",
+    "category": "Baggage",
+    "title": "What items are strictly banned in shared baggage?",
+    "canonical_question": "What items are strictly banned in shared baggage?",
+    "keywords": [
+      "banned baggage items",
+      "prohibited luggage",
+      "customs banned",
+      "duty free rules"
+    ],
+    "answer": "For safety and airline compliance, passengers can only carry legal items that have been visually inspected in person. Strictly prohibited: illegal narcotics, weapons, unprescribed pharmaceuticals, undeclared cash or gold, and hazardous materials.",
+    "paraphrases": [
+      "What items are strictly banned in shared baggage?",
+      "banned baggage items",
+      "prohibited luggage",
+      "customs banned",
+      "duty free rules"
+    ]
+  },
+  {
+    "id": "baggage-handover",
+    "category": "Baggage",
+    "title": "How do I collect my luggage at the destination airport?",
+    "canonical_question": "How do I collect my luggage at the destination airport?",
+    "keywords": [
+      "collect luggage",
+      "airport pickup",
+      "baggage carousel",
+      "handover destination"
+    ],
+    "answer": "The traveler collects the bag from the arrivals baggage carousel, proceeds through customs, and meets you at the designated arrivals terminal public meeting area. You inspect the bag, exchange the Delivery OTP, and complete handover.",
+    "paraphrases": [
+      "How do I collect my luggage at the destination airport?",
+      "collect luggage",
+      "airport pickup",
+      "baggage carousel",
+      "handover destination"
+    ]
+  },
+  {
+    "id": "baggage-flight-delay",
+    "category": "Baggage",
+    "title": "What happens if a flight is delayed or cancelled?",
+    "canonical_question": "What happens if a flight is delayed or cancelled?",
+    "keywords": [
+      "flight delayed",
+      "flight cancelled",
+      "airline delay",
+      "baggage delayed"
+    ],
+    "answer": "BawaGo tracks flight radar automatically. If a flight is delayed, estimated handover times update in real-time. If an airline cancels the flight and travel does not occur, escrow returns full funds to the sender.",
+    "paraphrases": [
+      "What happens if a flight is delayed or cancelled?",
+      "flight delayed",
+      "flight cancelled",
+      "airline delay",
+      "baggage delayed"
+    ]
+  },
+  {
+    "id": "baggage-train-bus",
+    "category": "Baggage",
+    "title": "Can I pool baggage space on trains and buses?",
+    "canonical_question": "Can I pool baggage space on trains and buses?",
+    "keywords": [
+      "train baggage",
+      "bus luggage",
+      "railway luggage",
+      "intercity bus baggage"
+    ],
+    "answer": "Yes! Baggage pooling is also widely used by passengers traveling on high-speed rail, express trains, and inter-city bus networks where travelers have ample luggage compartment space.",
+    "paraphrases": [
+      "Can I pool baggage space on trains and buses?",
+      "train baggage",
+      "bus luggage",
+      "railway luggage",
+      "intercity bus baggage"
+    ]
+  },
+  {
+    "id": "baggage-savings",
+    "category": "Baggage",
+    "title": "How much money can I save on excess baggage?",
+    "canonical_question": "How much money can I save on excess baggage?",
+    "keywords": [
+      "how much save baggage",
+      "excess baggage cost comparison",
+      "cheap luggage allowance"
+    ],
+    "answer": "Airlines typically charge $20 to $50 per extra kilogram on international flights. On BawaGo, community peer rates are usually $5 to $15 per kilo, saving travelers up to 70% while putting earnings directly in travelers' pockets.",
+    "paraphrases": [
+      "How much money can I save on excess baggage?",
+      "how much save baggage",
+      "excess baggage cost comparison",
+      "cheap luggage allowance"
+    ]
+  },
+  {
+    "id": "baggage-documents",
+    "category": "Baggage",
+    "title": "What documents are required for baggage pooling?",
+    "canonical_question": "What documents are required for baggage pooling?",
+    "keywords": [
+      "documents for baggage",
+      "airline ticket proof",
+      "boarding pass",
+      "id proof for baggage"
+    ],
+    "answer": "The traveler must provide proof of verified flight/train booking (PNR) and government photo ID. The sender must provide government ID, proof of item purchase/invoices where applicable, and signed item declaration.",
+    "paraphrases": [
+      "What documents are required for baggage pooling?",
+      "documents for baggage",
+      "airline ticket proof",
+      "boarding pass",
+      "id proof for baggage"
+    ]
+  },
+  {
+    "id": "baggage-escrow",
+    "category": "Baggage",
+    "title": "How does SafeVault Escrow protect baggage pooling?",
+    "canonical_question": "How does SafeVault Escrow protect baggage pooling?",
+    "keywords": [
+      "baggage escrow",
+      "safevault baggage",
+      "when does traveler get paid baggage"
+    ],
+    "answer": "When a sender books baggage space, their payment is locked in SafeVault Escrow. The traveler only receives payment after safe handover at the destination airport when the sender provides the Delivery OTP.",
+    "paraphrases": [
+      "How does SafeVault Escrow protect baggage pooling?",
+      "baggage escrow",
+      "safevault baggage",
+      "when does traveler get paid baggage"
+    ]
+  },
+  {
+    "id": "crave-how-it-works",
+    "category": "Home Food",
+    "title": "How does BawaGo Crave home food work?",
+    "canonical_question": "How does BawaGo Crave home food work?",
+    "keywords": [
+      "crave home food",
+      "homemade meals",
+      "order tiffin",
+      "home cooked food",
+      "mom made food",
+      "home chef"
+    ],
+    "answer": "BawaGo Crave connects food lovers with passionate, verified home cooks in their neighborhood. Order authentic regional cuisines, daily tiffins, healthy meal boxes, and festive feasts prepared with fresh, hygienic home ingredients.",
+    "paraphrases": [
+      "How does BawaGo Crave home food work?",
+      "crave home food",
+      "homemade meals",
+      "order tiffin",
+      "home cooked food",
+      "mom made food",
+      "home chef"
+    ]
+  },
+  {
+    "id": "crave-become-cook",
+    "category": "Home Food",
+    "title": "How do I register as a home cook on Crave?",
+    "canonical_question": "How do I register as a home cook on Crave?",
+    "keywords": [
+      "become home cook",
+      "sell home food",
+      "register home chef",
+      "earn from home cooking",
+      "start food business"
+    ],
+    "answer": "If you love cooking, register on Crave! Submit your kitchen photos, hygiene declaration, food safety certification (FSSAI/local safety permit), and your specialty menu. Set your own hours, pricing, and portion limits.",
+    "paraphrases": [
+      "How do I register as a home cook on Crave?",
+      "become home cook",
+      "sell home food",
+      "register home chef",
+      "earn from home cooking",
+      "start food business"
+    ]
+  },
+  {
+    "id": "crave-cuisines",
+    "category": "Home Food",
+    "title": "What types of cuisines are available on Crave?",
+    "canonical_question": "What types of cuisines are available on Crave?",
+    "keywords": [
+      "cuisines available",
+      "types of home food",
+      "regional dishes",
+      "dietary food",
+      "healthy meals"
+    ],
+    "answer": "You'll find diverse regional cuisines: North Indian, South Indian, Bengali, Maharashtrian, Gujarati, Indonesian, Thai, Vietnamese, Middle Eastern, as well as keto, diabetic-friendly, vegan, and traditional satvik menus.",
+    "paraphrases": [
+      "What types of cuisines are available on Crave?",
+      "cuisines available",
+      "types of home food",
+      "regional dishes",
+      "dietary food",
+      "healthy meals"
+    ]
+  },
+  {
+    "id": "crave-hygiene",
+    "category": "Home Food",
+    "title": "How does Crave ensure kitchen hygiene and food safety?",
+    "canonical_question": "How does Crave ensure kitchen hygiene and food safety?",
+    "keywords": [
+      "food hygiene",
+      "is home food safe",
+      "kitchen inspection",
+      "fssai compliance",
+      "food cleanliness"
+    ],
+    "answer": "All home cooks must provide statutory food handling compliance, pass kitchen cleanliness verification, and adhere to strict packaging guidelines. Community ratings and surprise audits maintain the highest hygiene standards.",
+    "paraphrases": [
+      "How does Crave ensure kitchen hygiene and food safety?",
+      "food hygiene",
+      "is home food safe",
+      "kitchen inspection",
+      "fssai compliance",
+      "food cleanliness"
+    ]
+  },
+  {
+    "id": "crave-tiffin-subscription",
+    "category": "Home Food",
+    "title": "Can I subscribe to daily tiffin or meal plans?",
+    "canonical_question": "Can I subscribe to daily tiffin or meal plans?",
+    "keywords": [
+      "tiffin subscription",
+      "daily meals",
+      "monthly tiffin",
+      "office lunch subscription",
+      "meal plans"
+    ],
+    "answer": "Yes! Many home cooks offer weekly or monthly tiffin subscriptions for lunch and dinner. You can set your delivery schedule, pause deliveries during travel, and enjoy consistent home-cooked nourishment.",
+    "paraphrases": [
+      "Can I subscribe to daily tiffin or meal plans?",
+      "tiffin subscription",
+      "daily meals",
+      "monthly tiffin",
+      "office lunch subscription",
+      "meal plans"
+    ]
+  },
+  {
+    "id": "crave-customization",
+    "category": "Home Food",
+    "title": "Can I customize dishes for spice levels or allergies?",
+    "canonical_question": "Can I customize dishes for spice levels or allergies?",
+    "keywords": [
+      "customize food",
+      "less spicy",
+      "allergy food",
+      "dietary preference",
+      "gluten free",
+      "jain food"
+    ],
+    "answer": "Yes! Because meals are prepared fresh in small home batches, you can leave custom notes for your cook—such as requesting low spice, no onion/garlic (Jain), gluten-free, or specific allergen exclusions.",
+    "paraphrases": [
+      "Can I customize dishes for spice levels or allergies?",
+      "customize food",
+      "less spicy",
+      "allergy food",
+      "dietary preference",
+      "gluten free",
+      "jain food"
+    ]
+  },
+  {
+    "id": "crave-preorder",
+    "category": "Home Food",
+    "title": "Can I pre-order food for weekend parties or feasts?",
+    "canonical_question": "Can I pre-order food for weekend parties or feasts?",
+    "keywords": [
+      "pre order food",
+      "party food",
+      "weekend feast",
+      "bulk home food",
+      "catering home food"
+    ],
+    "answer": "Yes! Home cooks frequently accept pre-orders for weekend family gatherings, small office lunches, festive sweets, or traditional multi-course feasts with 24-48 hours advance notice.",
+    "paraphrases": [
+      "Can I pre-order food for weekend parties or feasts?",
+      "pre order food",
+      "party food",
+      "weekend feast",
+      "bulk home food",
+      "catering home food"
+    ]
+  },
+  {
+    "id": "crave-delivery",
+    "category": "Home Food",
+    "title": "How is Crave home food delivered hot and fresh?",
+    "canonical_question": "How is Crave home food delivered hot and fresh?",
+    "keywords": [
+      "food delivery",
+      "hot food delivery",
+      "insulated bags",
+      "crave courier"
+    ],
+    "answer": "Meals are packed in thermal containers and dispatched immediately upon cooking via BawaGo Parcel express community carriers or neighborhood delivery partners, ensuring food reaches you piping hot.",
+    "paraphrases": [
+      "How is Crave home food delivered hot and fresh?",
+      "food delivery",
+      "hot food delivery",
+      "insulated bags",
+      "crave courier"
+    ]
+  },
+  {
+    "id": "crave-cook-payout",
+    "category": "Home Food",
+    "title": "When do home cooks receive their payouts?",
+    "canonical_question": "When do home cooks receive their payouts?",
+    "keywords": [
+      "cook payout",
+      "when do chefs get paid",
+      "food earnings payout"
+    ],
+    "answer": "Upon successful OTP delivery confirmation, earnings are credited immediately to the home cook's BawaGo Wallet. Cooks can withdraw funds to their linked bank account anytime with zero delay.",
+    "paraphrases": [
+      "When do home cooks receive their payouts?",
+      "cook payout",
+      "when do chefs get paid",
+      "food earnings payout"
+    ]
+  },
+  {
+    "id": "crave-cancellation",
+    "category": "Home Food",
+    "title": "What is the cancellation policy for food orders?",
+    "canonical_question": "What is the cancellation policy for food orders?",
+    "keywords": [
+      "cancel food order",
+      "food order refund",
+      "crave cancellation"
+    ],
+    "answer": "You can cancel with a full refund before the home cook starts meal preparation. Once cooking has begun, cancellations are subject to ingredients cost recovery. If an order cannot be fulfilled, full refund is credited immediately.",
+    "paraphrases": [
+      "What is the cancellation policy for food orders?",
+      "cancel food order",
+      "food order refund",
+      "crave cancellation"
+    ]
+  },
+  {
+    "id": "host-overview",
+    "category": "Host",
+    "title": "How do I book a stay or room on BawaGo Host?",
+    "canonical_question": "How do I book a stay or room on BawaGo Host?",
+    "keywords": [
+      "book stay",
+      "book homestay",
+      "find room",
+      "host accommodation",
+      "cheap stay",
+      "guest house"
+    ],
+    "answer": "Visit /host to browse verified spare bedrooms, heritage homestays, apartments, villas, and unique rural eco-stays. Filter by location, dates, amenities, and price. Book securely with SafeVault escrow protection.",
+    "paraphrases": [
+      "How do I book a stay or room on BawaGo Host?",
+      "book stay",
+      "book homestay",
+      "find room",
+      "host accommodation",
+      "cheap stay",
+      "guest house"
+    ]
+  },
+  {
+    "id": "host-list-space",
+    "category": "Host",
+    "title": "How do I list my spare room or property on BawaGo Host?",
+    "canonical_question": "How do I list my spare room or property on BawaGo Host?",
+    "keywords": [
+      "list spare room",
+      "become a host",
+      "rent room",
+      "homestay listing",
+      "host on bawago",
+      "earn from property"
+    ],
+    "answer": "Click 'Offer Your Capacity' > 'Host'. Upload photos of your space, describe amenities (Wi-Fi, AC, kitchen, parking), set your nightly or monthly price, and specify house rules. Start welcoming verified guests worldwide.",
+    "paraphrases": [
+      "How do I list my spare room or property on BawaGo Host?",
+      "list spare room",
+      "become a host",
+      "rent room",
+      "homestay listing",
+      "host on bawago",
+      "earn from property"
+    ]
+  },
+  {
+    "id": "host-types-of-spaces",
+    "category": "Host",
+    "title": "What types of spaces can I host on BawaGo?",
+    "canonical_question": "What types of spaces can I host on BawaGo?",
+    "keywords": [
+      "types of spaces to host",
+      "spare bedroom",
+      "homestay",
+      "farm stay",
+      "storage space",
+      "eco lodge"
+    ],
+    "answer": "You can list spare private rooms, entire apartments, heritage villas, farm stays, student rooms, or even secure dry storage capacity for travelers needing temporary luggage or inventory storage.",
+    "paraphrases": [
+      "What types of spaces can I host on BawaGo?",
+      "types of spaces to host",
+      "spare bedroom",
+      "homestay",
+      "farm stay",
+      "storage space",
+      "eco lodge"
+    ]
+  },
+  {
+    "id": "host-guest-verification",
+    "category": "Host",
+    "title": "How are guests verified before check-in?",
+    "canonical_question": "How are guests verified before check-in?",
+    "keywords": [
+      "guest verification",
+      "are guests safe",
+      "guest id check",
+      "background check guests"
+    ],
+    "answer": "Every guest must complete mandatory government identity verification (Aadhaar, Passport, or National ID) and phone verification before requesting a booking. Hosts can view guest verification badges and past review history.",
+    "paraphrases": [
+      "How are guests verified before check-in?",
+      "guest verification",
+      "are guests safe",
+      "guest id check",
+      "background check guests"
+    ]
+  },
+  {
+    "id": "host-luggage-storage",
+    "category": "Host",
+    "title": "Can I rent my space for temporary luggage storage?",
+    "canonical_question": "Can I rent my space for temporary luggage storage?",
+    "keywords": [
+      "luggage storage space",
+      "store bags",
+      "cloakroom",
+      "temporary storage space",
+      "store boxes"
+    ],
+    "answer": "Yes! BawaGo Host allows property owners and homemakers to monetize secure, dry space (closets, spare rooms, garages) for travelers wanting to store bags for a few hours, days, or weeks.",
+    "paraphrases": [
+      "Can I rent my space for temporary luggage storage?",
+      "luggage storage space",
+      "store bags",
+      "cloakroom",
+      "temporary storage space",
+      "store boxes"
+    ]
+  },
+  {
+    "id": "host-payout",
+    "category": "Host",
+    "title": "How and when do hosts get paid?",
+    "canonical_question": "How and when do hosts get paid?",
+    "keywords": [
+      "host payout",
+      "when does host get paid",
+      "host earnings",
+      "host money release"
+    ],
+    "answer": "Guest payments are held in SafeVault Escrow. Payout is released to the host's BawaGo Wallet 24 hours after guest check-in, ensuring the guest verified the listing accurately matches description.",
+    "paraphrases": [
+      "How and when do hosts get paid?",
+      "host payout",
+      "when does host get paid",
+      "host earnings",
+      "host money release"
+    ]
+  },
+  {
+    "id": "host-house-rules",
+    "category": "Host",
+    "title": "What house rules can hosts specify?",
+    "canonical_question": "What house rules can hosts specify?",
+    "keywords": [
+      "house rules",
+      "host rules",
+      "smoking rules",
+      "pet friendly",
+      "curfew"
+    ],
+    "answer": "Hosts can configure custom rules: check-in/out times, smoking policies, pet allowances, quiet hours, kitchen access, and guest visitor policies. Guests must agree to these rules before booking.",
+    "paraphrases": [
+      "What house rules can hosts specify?",
+      "house rules",
+      "host rules",
+      "smoking rules",
+      "pet friendly",
+      "curfew"
+    ]
+  },
+  {
+    "id": "host-damage-protection",
+    "category": "Host",
+    "title": "What happens in case of property damage?",
+    "canonical_question": "What happens in case of property damage?",
+    "keywords": [
+      "property damage",
+      "host protection",
+      "damage deposit",
+      "broken item host"
+    ],
+    "answer": "SafeVault supports host security deposits held during the stay. If accidental damage occurs, hosts can submit photo evidence within 48 hours for expedited claim reimbursement from the security deposit and host protection pool.",
+    "paraphrases": [
+      "What happens in case of property damage?",
+      "property damage",
+      "host protection",
+      "damage deposit",
+      "broken item host"
+    ]
+  },
+  {
+    "id": "host-monthly-stays",
+    "category": "Host",
+    "title": "Can digital nomads or students book monthly stays?",
+    "canonical_question": "Can digital nomads or students book monthly stays?",
+    "keywords": [
+      "monthly stay",
+      "long term rental",
+      "student accommodation",
+      "digital nomad stay",
+      "extended stay"
+    ],
+    "answer": "Yes! Many BawaGo hosts offer discounted weekly and monthly rates for digital nomads, remote workers, interns, and students looking for comfortable homestays with reliable Wi-Fi and home meals.",
+    "paraphrases": [
+      "Can digital nomads or students book monthly stays?",
+      "monthly stay",
+      "long term rental",
+      "student accommodation",
+      "digital nomad stay",
+      "extended stay"
+    ]
+  },
+  {
+    "id": "host-checkin",
+    "category": "Host",
+    "title": "How does check-in and key handover work?",
+    "canonical_question": "How does check-in and key handover work?",
+    "keywords": [
+      "check in process",
+      "key handover",
+      "self check in",
+      "arrival host"
+    ],
+    "answer": "Hosts provide clear arrival instructions in the booking confirmation. Check-in is verified via in-person greeting, smart lock codes, or secure lockboxes. Both parties exchange a digital Check-in confirmation on the app.",
+    "paraphrases": [
+      "How does check-in and key handover work?",
+      "check in process",
+      "key handover",
+      "self check in",
+      "arrival host"
+    ]
+  },
+  {
+    "id": "wish-overview",
+    "category": "Wish",
+    "title": "What is BawaGo Wish custom sourcing?",
+    "canonical_question": "What is BawaGo Wish custom sourcing?",
+    "keywords": [
+      "bawa wish",
+      "custom delivery",
+      "buy for me",
+      "souvenirs from another city",
+      "bring me item",
+      "specialty goods"
+    ],
+    "answer": "BawaGo Wish allows you to request unique items, regional sweets, handicrafts, fashion, or souvenirs from any city or country. A traveler heading to your city purchases and delivers it along their journey.",
+    "paraphrases": [
+      "What is BawaGo Wish custom sourcing?",
+      "bawa wish",
+      "custom delivery",
+      "buy for me",
+      "souvenirs from another city",
+      "bring me item",
+      "specialty goods"
+    ]
+  },
+  {
+    "id": "wish-create-request",
+    "category": "Wish",
+    "title": "How do I post a Wish request?",
+    "canonical_question": "How do I post a Wish request?",
+    "keywords": [
+      "how to post wish",
+      "request an item",
+      "wish shopping",
+      "custom buy request"
+    ],
+    "answer": "Go to /wish, specify the item name, origin city, reference photo or store link, target delivery date, item estimated price, and the traveler reward fee you are offering. Verified travelers visiting that city can accept your wish.",
+    "paraphrases": [
+      "How do I post a Wish request?",
+      "how to post wish",
+      "request an item",
+      "wish shopping",
+      "custom buy request"
+    ]
+  },
+  {
+    "id": "wish-traveler-earn",
+    "category": "Wish",
+    "title": "How can travelers earn by fulfilling Wish requests?",
+    "canonical_question": "How can travelers earn by fulfilling Wish requests?",
+    "keywords": [
+      "earn fulfilling wishes",
+      "traveler shopping",
+      "buy and deliver to earn",
+      "travel shopper"
+    ],
+    "answer": "When traveling, browse Wish requests originating from your destination city. If you're visiting a market or shopping area, accept the request, purchase the item, and bring it with you to earn the reward fee upon delivery.",
+    "paraphrases": [
+      "How can travelers earn by fulfilling Wish requests?",
+      "earn fulfilling wishes",
+      "traveler shopping",
+      "buy and deliver to earn",
+      "travel shopper"
+    ]
+  },
+  {
+    "id": "wish-wrong-item",
+    "category": "Wish",
+    "title": "What if the traveler buys the wrong item?",
+    "canonical_question": "What if the traveler buys the wrong item?",
+    "keywords": [
+      "wrong item wish",
+      "item damaged wish",
+      "not what I ordered wish",
+      "wish refund"
+    ],
+    "answer": "Travelers must upload a purchase receipt and item photo before traveling. If the delivered item does not match your agreed specification or is damaged, you can reject the handover and receive a full escrow refund.",
+    "paraphrases": [
+      "What if the traveler buys the wrong item?",
+      "wrong item wish",
+      "item damaged wish",
+      "not what I ordered wish",
+      "wish refund"
+    ]
+  },
+  {
+    "id": "wish-sweets-spices",
+    "category": "Wish",
+    "title": "Can I wish for authentic regional sweets, spices, and snacks?",
+    "canonical_question": "Can I wish for authentic regional sweets, spices, and snacks?",
+    "keywords": [
+      "order sweets from another city",
+      "regional spices",
+      "hometown snacks",
+      "authentic souvenirs"
+    ],
+    "answer": "Yes! This is one of the most popular uses of BawaGo Wish—getting authentic Hyderabadi Karachi biscuits, Kolkata sandesh, Varanasi silk scarves, Darjeeling tea, or Balinese spices brought fresh by travelers.",
+    "paraphrases": [
+      "Can I wish for authentic regional sweets, spices, and snacks?",
+      "order sweets from another city",
+      "regional spices",
+      "hometown snacks",
+      "authentic souvenirs"
+    ]
+  },
+  {
+    "id": "wish-international",
+    "category": "Wish",
+    "title": "Are international Wish requests supported?",
+    "canonical_question": "Are international Wish requests supported?",
+    "keywords": [
+      "international wish",
+      "goods from overseas",
+      "customs duty wish",
+      "buy from abroad"
+    ],
+    "answer": "Yes! International travelers frequently fulfill Wish requests for cosmetics, gadgets, snacks, or fashion from overseas within duty-free personal baggage limits. Commercial quantities requiring customs import licenses are prohibited.",
+    "paraphrases": [
+      "Are international Wish requests supported?",
+      "international wish",
+      "goods from overseas",
+      "customs duty wish",
+      "buy from abroad"
+    ]
+  },
+  {
+    "id": "wish-timeline",
+    "category": "Wish",
+    "title": "How fast is Wish fulfillment and delivery?",
+    "canonical_question": "How fast is Wish fulfillment and delivery?",
+    "keywords": [
+      "wish timeline",
+      "how long does wish take",
+      "when will wish arrive"
+    ],
+    "answer": "Fulfillment depends on traveler routes. On popular corridors (e.g., Delhi-Mumbai, Dubai-India, Singapore-Jakarta), wishes are often accepted within hours and delivered within 1 to 3 days.",
+    "paraphrases": [
+      "How fast is Wish fulfillment and delivery?",
+      "wish timeline",
+      "how long does wish take",
+      "when will wish arrive"
+    ]
+  },
+  {
+    "id": "wish-escrow-security",
+    "category": "Wish",
+    "title": "How does escrow protect the traveler and the buyer in Wish?",
+    "canonical_question": "How does escrow protect the traveler and the buyer in Wish?",
+    "keywords": [
+      "wish escrow",
+      "wish payment safety",
+      "traveler reimbursement"
+    ],
+    "answer": "SafeVault locks both the item cost and the reward fee upfront from the buyer. The traveler is guaranteed reimbursement upon delivery, while the buyer is guaranteed that funds are never paid out until they inspect the physical item.",
+    "paraphrases": [
+      "How does escrow protect the traveler and the buyer in Wish?",
+      "wish escrow",
+      "wish payment safety",
+      "traveler reimbursement"
+    ]
+  },
+  {
+    "id": "fresh-overview",
+    "category": "Fresh",
+    "title": "How does BawaGo Fresh farm produce delivery work?",
+    "canonical_question": "How does BawaGo Fresh farm produce delivery work?",
+    "keywords": [
+      "bawago fresh",
+      "farm produce",
+      "fresh vegetables",
+      "fruits direct from farm",
+      "organic food",
+      "farmers direct"
+    ],
+    "answer": "BawaGo Fresh connects agricultural producers and rural farm clusters directly with urban households along daily commuter transit corridors. Cut out predatory wholesale middlemen and enjoy morning-harvested produce.",
+    "paraphrases": [
+      "How does BawaGo Fresh farm produce delivery work?",
+      "bawago fresh",
+      "farm produce",
+      "fresh vegetables",
+      "fruits direct from farm",
+      "organic food",
+      "farmers direct"
+    ]
+  },
+  {
+    "id": "fresh-origin",
+    "category": "Fresh",
+    "title": "Where does BawaGo Fresh produce come from?",
+    "canonical_question": "Where does BawaGo Fresh produce come from?",
+    "keywords": [
+      "where does produce come from",
+      "farm source",
+      "verified farmers",
+      "organic farms"
+    ],
+    "answer": "Produce comes from verified smallholder farmers, organic growers, and rural farm cooperatives located within 50-150 km of urban cities along active highway freight and commuter corridors.",
+    "paraphrases": [
+      "Where does BawaGo Fresh produce come from?",
+      "where does produce come from",
+      "farm source",
+      "verified farmers",
+      "organic farms"
+    ]
+  },
+  {
+    "id": "fresh-farmer-list",
+    "category": "Fresh",
+    "title": "How do farmers list their harvest on BawaGo Fresh?",
+    "canonical_question": "How do farmers list their harvest on BawaGo Fresh?",
+    "keywords": [
+      "farmer registration",
+      "sell farm produce",
+      "list harvest",
+      "farmer partner"
+    ],
+    "answer": "Farmers or agricultural collectives list upcoming harvest dates, crop varieties (tomatoes, spinach, rice, mangoes, coconut), quantity in kilograms/crates, and price. Transit carriers pick up crates at highway collection hubs.",
+    "paraphrases": [
+      "How do farmers list their harvest on BawaGo Fresh?",
+      "farmer registration",
+      "sell farm produce",
+      "list harvest",
+      "farmer partner"
+    ]
+  },
+  {
+    "id": "fresh-products",
+    "category": "Fresh",
+    "title": "What farm products are available on Fresh?",
+    "canonical_question": "What farm products are available on Fresh?",
+    "keywords": [
+      "products on fresh",
+      "vegetables",
+      "fruits",
+      "grains",
+      "dairy",
+      "coconut",
+      "eggs"
+    ],
+    "answer": "Fresh includes: seasonal vegetables (tomatoes, spinach, gourds), orchard fruits, heritage rice, whole pulses, farm-fresh eggs, artisanal dairy/ghee, cold-pressed oils, and fresh coconut products.",
+    "paraphrases": [
+      "What farm products are available on Fresh?",
+      "products on fresh",
+      "vegetables",
+      "fruits",
+      "grains",
+      "dairy",
+      "coconut"
+    ]
+  },
+  {
+    "id": "fresh-bulk-housing",
+    "category": "Fresh",
+    "title": "Can housing societies and apartments order in bulk?",
+    "canonical_question": "Can housing societies and apartments order in bulk?",
+    "keywords": [
+      "bulk farm order",
+      "housing society fresh order",
+      "apartment group buying",
+      "society wholesale produce"
+    ],
+    "answer": "Yes! BawaGo Fresh specializes in residential society group orders. Apartment communities pool weekly fruit and vegetable orders for bulk highway delivery, getting farm-gate wholesale prices with zero delivery surcharges.",
+    "paraphrases": [
+      "Can housing societies and apartments order in bulk?",
+      "bulk farm order",
+      "housing society fresh order",
+      "apartment group buying",
+      "society wholesale produce"
+    ]
+  },
+  {
+    "id": "fresh-transit-baskets",
+    "category": "Fresh",
+    "title": "What are morning transit baskets?",
+    "canonical_question": "What are morning transit baskets?",
+    "keywords": [
+      "transit baskets",
+      "how is produce transported",
+      "farm delivery baskets"
+    ],
+    "answer": "Produce is packed in reusable aerated crates called Transit Baskets. Morning inter-city commuters or returning vans transport these baskets from rural highway pickup points directly into city drop hubs.",
+    "paraphrases": [
+      "What are morning transit baskets?",
+      "transit baskets",
+      "how is produce transported",
+      "farm delivery baskets"
+    ]
+  },
+  {
+    "id": "fresh-quality-guarantee",
+    "category": "Fresh",
+    "title": "What if some fruits or vegetables are damaged?",
+    "canonical_question": "What if some fruits or vegetables are damaged?",
+    "keywords": [
+      "damaged produce",
+      "spoiled vegetables",
+      "fresh refund",
+      "rotten food replacement"
+    ],
+    "answer": "We offer a 100% Freshness Guarantee! If any item arrives bruised, spoiled, or damaged, snap a photo in the app within 4 hours of delivery. SafeVault Escrow automatically issues an instant replacement credit or refund.",
+    "paraphrases": [
+      "What if some fruits or vegetables are damaged?",
+      "damaged produce",
+      "spoiled vegetables",
+      "fresh refund",
+      "rotten food replacement"
+    ]
+  },
+  {
+    "id": "fresh-why-better",
+    "category": "Fresh",
+    "title": "Why is BawaGo Fresh better than supermarkets?",
+    "canonical_question": "Why is BawaGo Fresh better than supermarkets?",
+    "keywords": [
+      "why buy from fresh",
+      "supermarket comparison",
+      "fresher than store",
+      "food miles"
+    ],
+    "answer": "Supermarket produce spends 4-8 days in cold storage and distribution hubs before reaching shelves, losing flavor and nutrients. BawaGo Fresh produce is harvested at dawn and in your kitchen by afternoon.",
+    "paraphrases": [
+      "Why is BawaGo Fresh better than supermarkets?",
+      "why buy from fresh",
+      "supermarket comparison",
+      "fresher than store",
+      "food miles"
+    ]
+  },
+  {
+    "id": "escrow-what-is",
+    "category": "SafeVault & Wallet",
+    "title": "What is SafeVault Escrow and how does it work?",
+    "canonical_question": "What is SafeVault Escrow and how does it work?",
+    "keywords": [
+      "safevault",
+      "escrow",
+      "payment protection",
+      "is my money safe",
+      "how does escrow work",
+      "payment security"
+    ],
+    "answer": "SafeVault Escrow is BawaGo's automated financial trust layer. When you book any service, your payment is held safely in escrow. The provider is NEVER paid upfront. Funds are only released when you confirm satisfactory service with an OTP.",
+    "paraphrases": [
+      "What is SafeVault Escrow and how does it work?",
+      "safevault",
+      "escrow",
+      "payment protection",
+      "is my money safe",
+      "how does escrow work",
+      "payment security"
+    ]
+  },
+  {
+    "id": "escrow-payment-methods",
+    "category": "SafeVault & Wallet",
+    "title": "What payment methods are supported on BawaGo?",
+    "canonical_question": "What payment methods are supported on BawaGo?",
+    "keywords": [
+      "payment methods",
+      "how to pay",
+      "upi",
+      "credit card",
+      "debit card",
+      "netbanking",
+      "wallet payment"
+    ],
+    "answer": "BawaGo supports all major secure payment channels: UPI (Google Pay, PhonePe, Paytm), Credit & Debit Cards (Visa, Mastercard, RuPay), NetBanking (all major banks), and your integrated BawaGo Digital Wallet.",
+    "paraphrases": [
+      "What payment methods are supported on BawaGo?",
+      "payment methods",
+      "how to pay",
+      "upi",
+      "credit card",
+      "debit card",
+      "netbanking"
+    ]
+  },
+  {
+    "id": "escrow-wallet-withdraw",
+    "category": "SafeVault & Wallet",
+    "title": "How do I withdraw money from BawaGo Wallet to my bank?",
+    "canonical_question": "How do I withdraw money from BawaGo Wallet to my bank?",
+    "keywords": [
+      "withdraw money",
+      "wallet withdrawal",
+      "transfer to bank",
+      "cash out wallet",
+      "payout bank account"
+    ],
+    "answer": "Go to Dashboard > Wallet > 'Withdraw'. Enter the amount and select your linked bank account or UPI ID. Withdrawals are processed instantly via automated IMPS / UPI with zero transfer fees.",
+    "paraphrases": [
+      "How do I withdraw money from BawaGo Wallet to my bank?",
+      "withdraw money",
+      "wallet withdrawal",
+      "transfer to bank",
+      "cash out wallet",
+      "payout bank account"
+    ]
+  },
+  {
+    "id": "escrow-refund-timeline",
+    "category": "SafeVault & Wallet",
+    "title": "What is the refund process and timeline?",
+    "canonical_question": "What is the refund process and timeline?",
+    "keywords": [
+      "refund timeline",
+      "how long refund takes",
+      "money back guarantee",
+      "when will I get refund"
+    ],
+    "answer": "Refunds issued to your BawaGo Wallet are instantaneous (0 seconds). If you choose to refund back to your original source (credit card / bank), banking networks typically complete processing within 24 to 48 hours.",
+    "paraphrases": [
+      "What is the refund process and timeline?",
+      "refund timeline",
+      "how long refund takes",
+      "money back guarantee",
+      "when will I get refund"
+    ]
+  },
+  {
+    "id": "escrow-fees",
+    "category": "SafeVault & Wallet",
+    "title": "Are there any hidden fees or surprise charges on BawaGo?",
+    "canonical_question": "Are there any hidden fees or surprise charges on BawaGo?",
+    "keywords": [
+      "hidden fees",
+      "surprise charges",
+      "extra cost",
+      "service charge",
+      "transparent pricing"
+    ],
+    "answer": "BawaGo keeps pricing straightforward: we charge a transparent 5% to 10% platform fee (typically 7% for standard escrow). More than 90% of the total payment goes directly into the provider's wallet, and payouts can be withdrawn instantly to your bank account or UPI.",
+    "paraphrases": [
+      "Are there any hidden fees or surprise charges on BawaGo?",
+      "hidden fees",
+      "surprise charges",
+      "extra cost",
+      "service charge",
+      "transparent pricing"
+    ]
+  },
+  {
+    "id": "escrow-banking-security",
+    "category": "SafeVault & Wallet",
+    "title": "Is my card and banking data secure?",
+    "canonical_question": "Is my card and banking data secure?",
+    "keywords": [
+      "is banking safe",
+      "card security",
+      "data protection",
+      "encryption",
+      "pci dss"
+    ],
+    "answer": "Yes. BawaGo complies with global PCI-DSS Level 1 standards and RBI tokenization regulations. We do not store raw card numbers on our servers. All financial transactions are secured by tokenized 256-bit TLS encryption.",
+    "paraphrases": [
+      "Is my card and banking data secure?",
+      "is banking safe",
+      "card security",
+      "data protection",
+      "encryption",
+      "pci dss"
+    ]
+  },
+  {
+    "id": "escrow-failed-transaction",
+    "category": "SafeVault & Wallet",
+    "title": "What happens if a payment fails but money was deducted?",
+    "canonical_question": "What happens if a payment fails but money was deducted?",
+    "keywords": [
+      "payment failed money deducted",
+      "transaction failure",
+      "money deducted not booked"
+    ],
+    "answer": "Banking networks occasionally experience timeout glitches. If money was deducted, our automated reconciliation engine detects it and either completes your booking within 5 minutes or auto-refunds the amount back to your source account.",
+    "paraphrases": [
+      "What happens if a payment fails but money was deducted?",
+      "payment failed money deducted",
+      "transaction failure",
+      "money deducted not booked"
+    ]
+  },
+  {
+    "id": "escrow-milestone-release",
+    "category": "SafeVault & Wallet",
+    "title": "What is a milestone escrow release?",
+    "canonical_question": "What is a milestone escrow release?",
+    "keywords": [
+      "milestone release",
+      "partial escrow release",
+      "stage payments",
+      "long term escrow"
+    ],
+    "answer": "For long-term arrangements like monthly homestays or multi-stage goods shipments, SafeVault breaks payments into milestones. Funds are released progressively as each phase (e.g. Week 1 check-in, mid-month) is validated.",
+    "paraphrases": [
+      "What is a milestone escrow release?",
+      "milestone release",
+      "partial escrow release",
+      "stage payments",
+      "long term escrow"
+    ]
+  },
+  {
+    "id": "escrow-cashless",
+    "category": "SafeVault & Wallet",
+    "title": "Why does BawaGo recommend cashless escrow payments?",
+    "canonical_question": "Why does BawaGo recommend cashless escrow payments?",
+    "keywords": [
+      "why cashless",
+      "cash payment vs escrow",
+      "can I pay cash"
+    ],
+    "answer": "Cash payments carry high risk: no record of payment, no dispute resolution, and no insurance coverage. SafeVault escrow provides a digital proof of transaction, automatic accidental insurance, and instant refund capability.",
+    "paraphrases": [
+      "Why does BawaGo recommend cashless escrow payments?",
+      "why cashless",
+      "cash payment vs escrow",
+      "can I pay cash"
+    ]
+  },
+  {
+    "id": "escrow-dispute-resolution",
+    "category": "SafeVault & Wallet",
+    "title": "How do I raise a payment dispute on BawaGo?",
+    "canonical_question": "How do I raise a payment dispute on BawaGo?",
+    "keywords": [
+      "raise dispute",
+      "payment complaint",
+      "escrow dispute",
+      "report provider payment"
+    ],
+    "answer": "If a service was unsatisfactory or unfulfilled, tap 'Dispute' on your booking screen before providing the OTP. Funds will remain locked in SafeVault while our dedicated resolution team reviews evidence from both parties.",
+    "paraphrases": [
+      "How do I raise a payment dispute on BawaGo?",
+      "raise dispute",
+      "payment complaint",
+      "escrow dispute",
+      "report provider payment"
+    ]
+  },
+  {
+    "id": "safety-kyc-process",
+    "category": "Safety & Trust",
+    "title": "What is the KYC verification process?",
+    "canonical_question": "What is the KYC verification process?",
+    "keywords": [
+      "kyc process",
+      "how to verify account",
+      "id verification",
+      "identity proof",
+      "aadhaar verification"
+    ],
+    "answer": "KYC verification takes under 2 minutes: Go to Profile > 'Verify Identity'. Upload a clear photo of your government ID (Aadhaar, Passport, Driving License, or KTP) and take a quick selfie to verify biometric match.",
+    "paraphrases": [
+      "What is the KYC verification process?",
+      "kyc process",
+      "how to verify account",
+      "id verification",
+      "identity proof",
+      "aadhaar verification"
+    ]
+  },
+  {
+    "id": "safety-id-documents",
+    "category": "Safety & Trust",
+    "title": "Which government ID documents are accepted for KYC?",
+    "canonical_question": "Which government ID documents are accepted for KYC?",
+    "keywords": [
+      "accepted documents for kyc",
+      "passport",
+      "aadhaar",
+      "driving license",
+      "national id card"
+    ],
+    "answer": "Accepted IDs include: Government National Identity (Aadhaar, e-Aadhaar, KTP, MyKad), International Passport, Driver's License, or Voter ID. Documents must be valid, unexpired, and clearly legible.",
+    "paraphrases": [
+      "Which government ID documents are accepted for KYC?",
+      "accepted documents for kyc",
+      "passport",
+      "aadhaar",
+      "driving license",
+      "national id card"
+    ]
+  },
+  {
+    "id": "safety-emergency-guardian",
+    "category": "Safety & Trust",
+    "title": "How does the Emergency Guardian feature work?",
+    "canonical_question": "How does the Emergency Guardian feature work?",
+    "keywords": [
+      "emergency guardian",
+      "safety guardian",
+      "guardian contact",
+      "live sharing guardian"
+    ],
+    "answer": "Emergency Guardian allows you to designate trusted contacts (family, spouse, close friends). During any trip or delivery, your Guardian can track your live GPS route, battery status, and receive alerts if an SOS is triggered.",
+    "paraphrases": [
+      "How does the Emergency Guardian feature work?",
+      "emergency guardian",
+      "safety guardian",
+      "guardian contact",
+      "live sharing guardian"
+    ]
+  },
+  {
+    "id": "safety-breakdown-garage",
+    "category": "Safety & Trust",
+    "title": "What is Highway Breakdown & Garage Assistance?",
+    "canonical_question": "What is Highway Breakdown & Garage Assistance?",
+    "keywords": [
+      "garage assistance",
+      "car breakdown",
+      "mechanic help",
+      "highway puncture",
+      "towing assistance"
+    ],
+    "answer": "BawaGo partners with 2,500+ verified automotive garages and towing services along national highway corridors. If your vehicle breaks down during a ride, open Emergency Guardian to connect with nearby mechanical assistance.",
+    "paraphrases": [
+      "What is Highway Breakdown & Garage Assistance?",
+      "garage assistance",
+      "car breakdown",
+      "mechanic help",
+      "highway puncture",
+      "towing assistance"
+    ]
+  },
+  {
+    "id": "safety-community-ratings",
+    "category": "Safety & Trust",
+    "title": "How do reviews and trust ratings keep users safe?",
+    "canonical_question": "How do reviews and trust ratings keep users safe?",
+    "keywords": [
+      "trust rating",
+      "reviews and ratings",
+      "star rating",
+      "user feedback",
+      "community trust"
+    ],
+    "answer": "Every completed transaction requires mutual star ratings and written reviews. Users maintaining ratings below 4.2 stars are flagged for review, and bad actors are permanently suspended from the network.",
+    "paraphrases": [
+      "How do reviews and trust ratings keep users safe?",
+      "trust rating",
+      "reviews and ratings",
+      "star rating",
+      "user feedback",
+      "community trust"
+    ]
+  },
+  {
+    "id": "safety-report-user",
+    "category": "Safety & Trust",
+    "title": "How do I report a suspicious user or inappropriate behavior?",
+    "canonical_question": "How do I report a suspicious user or inappropriate behavior?",
+    "keywords": [
+      "report user",
+      "suspicious user",
+      "inappropriate behavior",
+      "harassment",
+      "block user"
+    ],
+    "answer": "Tap the three-dot menu on any user profile or chat conversation and select 'Report User'. Specify the reason (harassment, off-platform payment demand, suspicious behavior). Our trust and safety team investigates immediately.",
+    "paraphrases": [
+      "How do I report a suspicious user or inappropriate behavior?",
+      "report user",
+      "suspicious user",
+      "inappropriate behavior",
+      "harassment",
+      "block user"
+    ]
+  },
+  {
+    "id": "safety-women-travelers",
+    "category": "Safety & Trust",
+    "title": "What safety features are available for women travelers?",
+    "canonical_question": "What safety features are available for women travelers?",
+    "keywords": [
+      "women safety",
+      "female passenger safety",
+      "women carpool",
+      "women drivers",
+      "safe for women"
+    ],
+    "answer": "BawaGo provides dedicated safety features for women: 'Women-Only' carpool matching options, verified female driver preferences, discreet 1-tap SOS triggers, and prioritized 24/7 emergency response handling.",
+    "paraphrases": [
+      "What safety features are available for women travelers?",
+      "women safety",
+      "female passenger safety",
+      "women carpool",
+      "women drivers",
+      "safe for women"
+    ]
+  },
+  {
+    "id": "safety-data-privacy",
+    "category": "Safety & Trust",
+    "title": "How does BawaGo protect my personal data and privacy?",
+    "canonical_question": "How does BawaGo protect my personal data and privacy?",
+    "keywords": [
+      "data privacy",
+      "personal data protection",
+      "gdpr",
+      "privacy policy",
+      "is my data sold"
+    ],
+    "answer": "We strictly adhere to data privacy standards. BawaGo never sells your personal phone number, identity documents, or journey data to third-party advertisers. Contact details are masked during bookings for privacy.",
+    "paraphrases": [
+      "How does BawaGo protect my personal data and privacy?",
+      "data privacy",
+      "personal data protection",
+      "gdpr",
+      "privacy policy",
+      "is my data sold"
+    ]
+  },
+  {
+    "id": "earn-how-to-start",
+    "category": "Earn with Us",
+    "title": "How can I earn money on BawaGo?",
+    "canonical_question": "How can I earn money on BawaGo?",
+    "keywords": [
+      "how to earn money",
+      "make money on bawago",
+      "earn as provider",
+      "side income",
+      "extra income"
+    ],
+    "answer": "Anyone can monetize existing journeys or resources! Offer carpool seats on daily drives, deliver packages along your route, share excess flight baggage kilos, cook home meals, or list spare bedrooms.",
+    "paraphrases": [
+      "How can I earn money on BawaGo?",
+      "how to earn money",
+      "make money on bawago",
+      "earn as provider",
+      "side income",
+      "extra income"
+    ]
+  },
+  {
+    "id": "earn-who-can-join",
+    "category": "Earn with Us",
+    "title": "Who can become a service provider on BawaGo?",
+    "canonical_question": "Who can become a service provider on BawaGo?",
+    "keywords": [
+      "who can become provider",
+      "eligibility to earn",
+      "can students earn",
+      "homemakers earn",
+      "part time"
+    ],
+    "answer": "Anyone aged 18+ with a valid government ID and appropriate assets (a car, empty flight ticket, kitchen, spare room, or willingness to courier) can join. It is ideal for daily commuters, homemakers, freelancers, and students.",
+    "paraphrases": [
+      "Who can become a service provider on BawaGo?",
+      "who can become provider",
+      "eligibility to earn",
+      "can students earn",
+      "homemakers earn",
+      "part time"
+    ]
+  },
+  {
+    "id": "earn-multiple-services",
+    "category": "Earn with Us",
+    "title": "Can I offer multiple services at once?",
+    "canonical_question": "Can I offer multiple services at once?",
+    "keywords": [
+      "multiple services",
+      "earn from both ride and parcel",
+      "multi vertical provider"
+    ],
+    "answer": "Yes! A single driver can offer carpool seats and carry lightweight parcels in their car boot at the same time, maximizing journey earnings. A homemaker can offer delicious meals on Crave and list a spare room on Host.",
+    "paraphrases": [
+      "Can I offer multiple services at once?",
+      "multiple services",
+      "earn from both ride and parcel",
+      "multi vertical provider"
+    ]
+  },
+  {
+    "id": "earn-commission-rate",
+    "category": "Earn with Us",
+    "title": "How much commission does BawaGo charge providers?",
+    "canonical_question": "How much commission does BawaGo charge providers?",
+    "keywords": [
+      "commission rate",
+      "platform fee provider",
+      "how much bawago takes",
+      "cut on earnings"
+    ],
+    "answer": "BawaGo charges an industry-low platform maintenance fee of just 5% to 10% (compared to 25-35% charged by traditional ride-hailing and food delivery monopolies), leaving 90%+ of earnings directly with providers.",
+    "paraphrases": [
+      "How much commission does BawaGo charge providers?",
+      "commission rate",
+      "platform fee provider",
+      "how much bawago takes",
+      "cut on earnings"
+    ]
+  },
+  {
+    "id": "earn-payout-timing",
+    "category": "Earn with Us",
+    "title": "When and how do service providers get paid?",
+    "canonical_question": "When and how do service providers get paid?",
+    "keywords": [
+      "when do providers get paid",
+      "payout schedule",
+      "provider earnings payout"
+    ],
+    "answer": "Payments are credited to your BawaGo Wallet immediately upon completion of the service (Delivery OTP entry or trip end). You can initiate instant bank withdrawal anytime with 0-minute turnaround.",
+    "paraphrases": [
+      "When and how do service providers get paid?",
+      "when do providers get paid",
+      "payout schedule",
+      "provider earnings payout"
+    ]
+  },
+  {
+    "id": "earn-boost-bookings",
+    "category": "Earn with Us",
+    "title": "How do I get more bookings and higher ratings as a provider?",
+    "canonical_question": "How do I get more bookings and higher ratings as a provider?",
+    "keywords": [
+      "get more bookings",
+      "boost ratings",
+      "more orders",
+      "increase earnings",
+      "top provider tips"
+    ],
+    "answer": "To maximize bookings: complete your profile with photos, maintain prompt communication in chat, be punctual, keep your vehicle/kitchen spotless, and deliver with a friendly smile to earn 5-star reviews.",
+    "paraphrases": [
+      "How do I get more bookings and higher ratings as a provider?",
+      "get more bookings",
+      "boost ratings",
+      "more orders",
+      "increase earnings",
+      "top provider tips"
+    ]
+  },
+  {
+    "id": "earn-tax-compliance",
+    "category": "Earn with Us",
+    "title": "How do taxes work on BawaGo earnings?",
+    "canonical_question": "How do taxes work on BawaGo earnings?",
+    "keywords": [
+      "taxes on earnings",
+      "tds",
+      "gst",
+      "income tax bawago",
+      "tax invoice"
+    ],
+    "answer": "BawaGo provides automated annual earnings statements and transaction ledgers on your dashboard. Providers are responsible for declaring personal earnings in accordance with their local income tax regulations.",
+    "paraphrases": [
+      "How do taxes work on BawaGo earnings?",
+      "taxes on earnings",
+      "tds",
+      "gst",
+      "income tax bawago",
+      "tax invoice"
+    ]
+  },
+  {
+    "id": "earn-equipment-needs",
+    "category": "Earn with Us",
+    "title": "Do I need special equipment to start earning?",
+    "canonical_question": "Do I need special equipment to start earning?",
+    "keywords": [
+      "equipment needed",
+      "what do I need to start",
+      "requirements to earn"
+    ],
+    "answer": "No special commercial equipment is needed! All you need is a smartphone with the BawaGo app, your verified government identity, and your existing vehicle, kitchen, luggage space, or room.",
+    "paraphrases": [
+      "Do I need special equipment to start earning?",
+      "equipment needed",
+      "what do I need to start",
+      "requirements to earn"
+    ]
+  },
+  {
+    "id": "support-contact-channels",
+    "category": "Customer Support",
+    "title": "How do I contact customer support?",
+    "canonical_question": "How do I contact customer support?",
+    "keywords": [
+      "contact customer support",
+      "customer care",
+      "help desk",
+      "reach support",
+      "contact bawago"
+    ],
+    "answer": "You can reach our support team 24/7 via in-app Help Center (/help), email us at contact@bawago.com, or fill out the contact form on our Contact Us page (/contact). For emergencies, use the 1-Tap SOS button.",
+    "paraphrases": [
+      "How do I contact customer support?",
+      "contact customer support",
+      "customer care",
+      "help desk",
+      "reach support",
+      "contact bawago"
+    ]
+  },
+  {
+    "id": "support-email",
+    "category": "Customer Support",
+    "title": "What is BawaGo’s official support email address?",
+    "canonical_question": "What is BawaGo’s official support email address?",
+    "keywords": [
+      "support email",
+      "email address",
+      "official email",
+      "contact email",
+      "mail support"
+    ],
+    "answer": "Our official customer support and assistance email address is contact@bawago.com. For business and enterprise inquiries, reach out to partners@bawago.com.",
+    "paraphrases": [
+      "What is BawaGo’s official support email address?",
+      "support email",
+      "email address",
+      "official email",
+      "contact email",
+      "mail support"
+    ]
+  },
+  {
+    "id": "support-app-troubleshoot",
+    "category": "Customer Support",
+    "title": "The website or app is not loading properly. What should I do?",
+    "canonical_question": "The website or app is not loading properly. What should I do?",
+    "keywords": [
+      "app not loading",
+      "website error",
+      "page blank",
+      "troubleshoot app",
+      "bug",
+      "clear cache"
+    ],
+    "answer": "First, refresh the page or clear your browser cache. Ensure you have an active internet connection. If the issue persists, try switching browsers or contacting support@bawago.com with a screenshot of the error.",
+    "paraphrases": [
+      "The website or app is not loading properly. What should I do?",
+      "app not loading",
+      "website error",
+      "page blank",
+      "troubleshoot app",
+      "bug",
+      "clear cache"
+    ]
+  },
+  {
+    "id": "support-human-agent",
+    "category": "Customer Support",
+    "title": "Can I speak with a human support agent?",
+    "canonical_question": "Can I speak with a human support agent?",
+    "keywords": [
+      "speak to human",
+      "talk to human agent",
+      "real person",
+      "live chat human",
+      "representative"
+    ],
+    "answer": "Yes! While BawaBot handles immediate guides and answers, our human support executives are available 24/7. Simply submit a query through our Contact page or email support@bawago.com and an agent will assist you.",
+    "paraphrases": [
+      "Can I speak with a human support agent?",
+      "speak to human",
+      "talk to human agent",
+      "real person",
+      "live chat human",
+      "representative"
+    ]
+  },
+  {
+    "id": "support-terms-privacy",
+    "category": "Customer Support",
+    "title": "Where can I read BawaGo’s Terms of Service and Privacy Policy?",
+    "canonical_question": "Where can I read BawaGo’s Terms of Service and Privacy Policy?",
+    "keywords": [
+      "terms of service",
+      "privacy policy",
+      "user agreement",
+      "legal policy",
+      "terms and conditions"
+    ],
+    "answer": "Our legal terms, user agreements, and privacy policies are accessible anytime at the footer of our website via /terms and /privacy, outlining user responsibilities, escrow rules, and data rights.",
+    "paraphrases": [
+      "Where can I read BawaGo’s Terms of Service and Privacy Policy?",
+      "terms of service",
+      "privacy policy",
+      "user agreement",
+      "legal policy",
+      "terms and conditions"
+    ]
+  },
+  {
+    "id": "support-safety-guidelines",
+    "category": "Customer Support",
+    "title": "Where can I review community safety guidelines?",
+    "canonical_question": "Where can I review community safety guidelines?",
+    "keywords": [
+      "safety guidelines",
+      "community rules",
+      "code of conduct",
+      "guidelines"
+    ],
+    "answer": "Our complete safety protocols and community code of conduct are detailed at /safety. They cover ID verification standards, package inspection protocols, emergency procedures, and dispute mediation.",
+    "paraphrases": [
+      "Where can I review community safety guidelines?",
+      "safety guidelines",
+      "community rules",
+      "code of conduct",
+      "guidelines"
+    ]
+  },
+  {
+    "id": "support-feedback",
+    "category": "Customer Support",
+    "title": "How do I share feedback or feature suggestions?",
+    "canonical_question": "How do I share feedback or feature suggestions?",
+    "keywords": [
+      "give feedback",
+      "suggest feature",
+      "platform feedback",
+      "review bawago"
+    ],
+    "answer": "We love hearing from our community! You can share feature suggestions, feedback, or ideas directly through the Contact Us page or by emailing feedback@bawago.com. Many of our best features came from user suggestions!",
+    "paraphrases": [
+      "How do I share feedback or feature suggestions?",
+      "give feedback",
+      "suggest feature",
+      "platform feedback",
+      "review bawago"
+    ]
+  },
+  {
+    "id": "support-offline",
+    "category": "Customer Support",
+    "title": "Does BawaBot work offline?",
+    "canonical_question": "Does BawaBot work offline?",
+    "keywords": [
+      "offline support",
+      "works without internet",
+      "bawabot offline"
+    ],
+    "answer": "BawaBot runs directly inside your browser with a localized client-side knowledge base! Basic question-and-answer guides remain accessible even with intermittent connectivity once the page is loaded.",
+    "paraphrases": [
+      "Does BawaBot work offline?",
+      "offline support",
+      "works without internet",
+      "bawabot offline"
+    ]
+  },
+  {
+    "id": "baggage-laptop-electronics",
+    "category": "Baggage",
+    "title": "Can I carry a laptop or electronics on a flight?",
+    "canonical_question": "Can I carry a laptop or electronic device on my flight?",
+    "keywords": [
+      "laptop",
+      "macbook",
+      "ipad",
+      "tablet",
+      "electronics",
+      "gadget",
+      "invoice",
+      "invoice documents",
+      "purchase receipt",
+      "electronics rules",
+      "power on test",
+      "lithium battery",
+      "dubai laptop",
+      "hand luggage laptop"
+    ],
+    "answer": "Yes, you can carry a laptop or electronic gadget! Airlines require all laptops, tablets, and lithium-powered devices to be carried in your cabin hand-carry luggage—never in checked baggage. For safety and customs clearance, the sender must provide an original purchase invoice, and the device should power on during your mutual airport inspection.",
+    "paraphrases": [
+      "Can I carry a laptop for someone to Dubai?",
+      "What invoice documents are needed?",
+      "What invoice is required for laptops?",
+      "Are laptops allowed in cabin baggage?",
+      "Can I carry someone's MacBook on a plane?",
+      "Do I need an invoice for electronic devices?",
+      "What are the rules for carrying laptops on flights?",
+      "Can I transport smartphones and electronics on a flight?"
+    ]
+  },
+  {
+    "id": "corridors-routes",
+    "category": "General",
+    "title": "What are the most popular travel routes and corridors?",
+    "canonical_question": "What travel routes and corridors are available on BawaGo?",
+    "keywords": [
+      "popular corridors",
+      "travel routes",
+      "flight routes",
+      "dubai",
+      "london",
+      "singapore",
+      "hyderabad",
+      "mumbai",
+      "pune",
+      "delhi",
+      "bangalore",
+      "jakarta",
+      "bali"
+    ],
+    "answer": "BawaGo operates across major domestic and international corridors! Top routes include Hyderabad to Dubai, Singapore to London, Delhi to Mumbai, Jakarta to Bali, and intercity highway carpools like Mumbai to Pune and Delhi to Jaipur. You can find active travelers flying or driving daily across these routes.",
+    "paraphrases": [
+      "What are the most popular travel corridors on BawaGo?",
+      "Can I send items from Hyderabad to Dubai?",
+      "Are there travelers flying between Singapore and London?",
+      "What carpool routes exist between Mumbai and Pune?",
+      "Is BawaGo available internationally?"
+    ]
+  },
+  {
+    "id": "escrow-otp-delivery",
+    "category": "SafeVault & Wallet",
+    "title": "Why do I need a 6-digit OTP code for delivery?",
+    "canonical_question": "Why do I need a 6-digit OTP to confirm delivery?",
+    "keywords": [
+      "otp",
+      "6-digit otp",
+      "completion code",
+      "delivery pin",
+      "release payment with otp",
+      "secret pin at handover",
+      "delivery verification otp"
+    ],
+    "answer": "The 6-digit OTP is your personal release key for SafeVault Escrow. When you receive and inspect your item at handover, you share this secret code with the traveler or driver. Entering the OTP securely validates that the service was completed safely and unlocks their payout.",
+    "paraphrases": [
+      "Why do I need a 6-digit OTP?",
+      "What is the completion OTP code for?",
+      "How is delivery confirmed with OTP?",
+      "Where do I find my delivery OTP?",
+      "Can payment be released without the OTP code?",
+      "How does the receiver confirm delivery with OTP?"
+    ]
+  },
+  {
+    "id": "safety-insurance-guarantee",
+    "category": "Safety & Trust",
+    "title": "Is my package insured against loss or damage?",
+    "canonical_question": "Does BawaGo provide insurance and damage protection?",
+    "keywords": [
+      "insurance",
+      "damage protection",
+      "trust guarantee",
+      "500 dollar guarantee",
+      "broken item",
+      "lost parcel",
+      "claim insurance",
+      "loss coverage"
+    ],
+    "answer": "Yes! Every booking completed through SafeVault is protected by the BawaGo Trust Guarantee at no extra cost. This provides up to $500 in loss and damage coverage for verified items during transit. If an accidental issue occurs, our support team handles the claim and reimburses you promptly.",
+    "paraphrases": [
+      "Does insurance cover damage?",
+      "Is my package insured on BawaGo?",
+      "What happens if an item is lost or damaged by the traveler?",
+      "How much insurance compensation is provided for damaged items?",
+      "How do I file an insurance claim on BawaGo?"
+    ]
+  },
+  {
+    "id": "support-human-help",
+    "category": "Customer Support",
+    "title": "How do I contact human customer support?",
+    "canonical_question": "Can I speak with a real human support agent?",
+    "keywords": [
+      "human support",
+      "speak to human",
+      "real person",
+      "customer service staff",
+      "contact support",
+      "helpline",
+      "dispute ticket",
+      "call agent"
+    ],
+    "answer": "You can connect with our human customer care team anytime! We provide 24/7 support for booking disputes, claims, and urgent inquiries. You can email us at support@bawago.com or tap 'Raise Support Ticket' inside your app profile for assistance within 2 hours.",
+    "paraphrases": [
+      "Connect me to human customer support",
+      "Can I speak with a human agent?",
+      "How do I talk to a real person?",
+      "I need customer service help from a human",
+      "Can I speak with customer care staff?"
+    ]
+  }
+]

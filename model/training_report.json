@@ -1,0 +1,131 @@
+{
+  "model_name": "bawago_universal_agent_v2",
+  "total_intents": 130,
+  "total_samples": 1997,
+  "category_accuracy": 0.9975,
+  "intent_training_accuracy": 0.9955,
+  "benchmark_accuracy": 100.0,
+  "file_size_kb": 12124.7,
+  "evaluations": [
+    {
+      "query": "Can I carry a laptop to Dubai?",
+      "expected": "baggage-laptop-electronics",
+      "predicted": "baggage-laptop-electronics",
+      "passed": true
+    },
+    {
+      "query": "What invoice documents are needed?",
+      "expected": "baggage-laptop-electronics",
+      "predicted": "baggage-laptop-electronics",
+      "passed": true
+    },
+    {
+      "query": "How does SafeVault Escrow protect my money?",
+      "expected": "escrow-what-is",
+      "predicted": "escrow-what-is",
+      "passed": true
+    },
+    {
+      "query": "Why do I need a 6-digit OTP?",
+      "expected": "escrow-otp-delivery",
+      "predicted": "escrow-otp-delivery",
+      "passed": true
+    },
+    {
+      "query": "What percentage does BawaGo charge?",
+      "expected": "escrow-fees",
+      "predicted": "escrow-fees",
+      "passed": true
+    },
+    {
+      "query": "Can I pay the driver in physical cash?",
+      "expected": "escrow-cashless",
+      "predicted": "escrow-cashless",
+      "passed": true
+    },
+    {
+      "query": "How does intercity carpooling work?",
+      "expected": "ride-intercity",
+      "predicted": "ride-intercity",
+      "passed": true
+    },
+    {
+      "query": "Can I order authentic homemade biryani?",
+      "expected": "crave-cuisines",
+      "predicted": "crave-cuisines",
+      "passed": true
+    },
+    {
+      "query": "How is food hygiene verified for home cooks?",
+      "expected": "crave-hygiene",
+      "predicted": "crave-hygiene",
+      "passed": true
+    },
+    {
+      "query": "How do I list a spare guest room for rent?",
+      "expected": "host-list-space",
+      "predicted": "host-list-space",
+      "passed": true
+    },
+    {
+      "query": "Can a traveler shop at duty free for me?",
+      "expected": "wish-overview",
+      "predicted": "wish-overview",
+      "passed": true
+    },
+    {
+      "query": "Can I buy fresh vegetables directly from farmers?",
+      "expected": "fresh-overview",
+      "predicted": "fresh-overview",
+      "passed": true
+    },
+    {
+      "query": "How do I reset my account password?",
+      "expected": "acc-reset-pass",
+      "predicted": "acc-reset-pass",
+      "passed": true
+    },
+    {
+      "query": "Does insurance cover damaged parcels?",
+      "expected": "safety-insurance-guarantee",
+      "predicted": "safety-insurance-guarantee",
+      "passed": true
+    },
+    {
+      "query": "Connect me to human customer support",
+      "expected": "support-human-help",
+      "predicted": "support-human-help",
+      "passed": true
+    },
+    {
+      "query": "Can I share extra baggage kilos on a flight?",
+      "expected": "baggage-overview",
+      "predicted": "baggage-overview",
+      "passed": true
+    },
+    {
+      "query": "What items are strictly prohibited in parcels?",
+      "expected": "parcel-prohibited",
+      "predicted": "parcel-prohibited",
+      "passed": true
+    },
+    {
+      "query": "How do drivers earn money with carpools?",
+      "expected": "ride-offer-seats",
+      "predicted": "ride-offer-seats",
+      "passed": true
+    },
+    {
+      "query": "What is BawaGo?",
+      "expected": "chat-what-is-bawago",
+      "predicted": "chat-what-is-bawago",
+      "passed": true
+    },
+    {
+      "query": "Hi there",
+      "expected": "chat-hi",
+      "predicted": "chat-hi",
+      "passed": true
+    }
+  ]
+}
