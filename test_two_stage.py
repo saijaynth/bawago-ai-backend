@@ -77,3 +77,4 @@ for q, exp in BENCHMARK_QUERIES:
     probs = intent_pipe.predict_proba([clean(q)])[0]
     conf = np.max(probs)
     print(f"[{pred_intent == exp}] '{q}' -> Cat: {pred_cat} | Intent: {pred_intent} ({conf*100:.1f}%) [Exp: {exp}]")
+

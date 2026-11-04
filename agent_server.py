@@ -15,7 +15,7 @@ import re
 import mimetypes
 import joblib
 import numpy as np
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
 from agent_memory import memory_manager
@@ -34,14 +34,36 @@ intent_answers = {}
 training_report = {}
 feedback_log = []
 
+HF_MODEL_REPO = os.environ.get("HF_MODEL_REPO", "jaay2/bawago-universal-model")
+
 def load_resources():
     global model, intent_answers, training_report
+    
+    # 1. Check if model file exists locally; if not, pull from deployed HF Model Hub
+    if not os.path.exists(MODEL_PATH):
+        try:
+            print(f">> Model file not found locally. Fetching from deployed Hugging Face Model Hub: {HF_MODEL_REPO}...")
+            from huggingface_hub import hf_hub_download
+            os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
+            downloaded = hf_hub_download(repo_id=HF_MODEL_REPO, filename="trained_agent_model.joblib", local_dir=os.path.dirname(MODEL_PATH))
+            print(f">> Successfully downloaded deployed model from Hub to {downloaded}")
+        except Exception as e:
+            print(f">> Notice while fetching from Hub: {e}")
+
     if os.path.exists(MODEL_PATH):
         try:
             model = joblib.load(MODEL_PATH)
             print(f">> Loaded trained ML model from {MODEL_PATH}")
         except Exception as e:
             print(f">> Error loading model: {e}")
+
+    # 2. Check if answers file exists locally; if not, pull from Hub
+    if not os.path.exists(ANSWERS_PATH):
+        try:
+            from huggingface_hub import hf_hub_download
+            hf_hub_download(repo_id=HF_MODEL_REPO, filename="intent_answers.json", local_dir=os.path.dirname(ANSWERS_PATH))
+        except Exception as e:
+            print(f">> Notice while fetching answers from Hub: {e}")
 
     if os.path.exists(ANSWERS_PATH):
         try:
@@ -320,6 +342,8 @@ class IsolatedAgentHandler(BaseHTTPRequestHandler):
         elif path.startswith("/static/"):
             rel_path = path[len("/static/"):]
             self._serve_file(os.path.join(STATIC_DIR, rel_path))
+        elif os.path.exists(os.path.join(STATIC_DIR, path.lstrip("/"))):
+            self._serve_file(os.path.join(STATIC_DIR, path.lstrip("/")))
         elif path == "/api/status":
             perf = training_report.get("performance_metrics", {})
             self._send_json({
@@ -378,10 +402,10 @@ def run(host=None, port=None):
     if host is None:
         host = os.environ.get("HOST", "0.0.0.0")
     if port is None:
-        port = int(os.environ.get("PORT", sys.argv[1] if len(sys.argv) > 1 else 8080))
+        port = int(os.environ.get("PORT", 7860 if "SPACE_ID" in os.environ else 8080))
 
     server_address = (host, port)
-    httpd = HTTPServer(server_address, IsolatedAgentHandler)
+    httpd = ThreadingHTTPServer(server_address, IsolatedAgentHandler)
     print("=" * 60)
     print(f"  BawaGo Interactive AI Agent Prototype Server")
     print(f"  Running at: http://{host}:{port}/")
@@ -395,6 +419,14 @@ def run(host=None, port=None):
     print("Server stopped.")
 
 if __name__ == "__main__":
-    h = sys.argv[1] if len(sys.argv) > 2 else None
-    p = int(sys.argv[2]) if len(sys.argv) > 2 else (int(sys.argv[1]) if len(sys.argv) > 1 else None)
+    h = None
+    p = None
+    if len(sys.argv) >= 3:
+        h = sys.argv[1]
+        p = int(sys.argv[2])
+    elif len(sys.argv) == 2:
+        if sys.argv[1].isdigit():
+            p = int(sys.argv[1])
+        else:
+            h = sys.argv[1]
     run(host=h, port=p)

@@ -80,3 +80,4 @@ for q, exp in BENCHMARK_QUERIES:
 
 print("=" * 70)
 print(f"RESULTS: {passed}/{len(BENCHMARK_QUERIES)} Passed ({passed/len(BENCHMARK_QUERIES)*100:.1f}%)")
+

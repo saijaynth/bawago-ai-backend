@@ -7,10 +7,44 @@ import os
 import sys
 from huggingface_hub import HfApi, create_repo
 
+def find_token():
+    # 1. CLI argument
+    if len(sys.argv) > 1 and sys.argv[1].strip():
+        return sys.argv[1].strip()
+    # 2. Environment variables
+    for k in ["HF_TOKEN", "HUGGINGFACE_TOKEN", "HUGGING_FACE_HUB_TOKEN"]:
+        val = os.environ.get(k)
+        if val and val.strip():
+            return val.strip()
+    # 3. .env files
+    base = os.path.dirname(os.path.abspath(__file__))
+    candidates = [
+        os.path.join(base, "..", ".env"),
+        os.path.join(base, "..", "prototype", ".env"),
+        os.path.join(base, ".env"),
+        os.path.expanduser("~/.cache/huggingface/token"),
+        os.path.expanduser("~/.huggingface/token")
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            try:
+                with open(c, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith("#"):
+                            continue
+                        if "=" in line:
+                            k, v = line.split("=", 1)
+                            if k.strip().upper() in ["HF_TOKEN", "HUGGINGFACE_TOKEN", "HF_API_KEY"]:
+                                return v.strip().strip("'\"")
+                        elif line.startswith("hf_"):
+                            return line
+            except Exception:
+                pass
+    return None
+
 def deploy(token: str = None):
-    token = token or os.environ.get("HF_TOKEN")
-    if not token and len(sys.argv) > 1:
-        token = sys.argv[1].strip()
+    token = token or find_token()
 
     if not token:
         print("=" * 60)
@@ -31,10 +65,9 @@ def deploy(token: str = None):
         url = create_repo(
             repo_id=repo_id,
             repo_type="space",
-            space_sdk="docker",
+            space_sdk="static",
             exist_ok=True,
-            token=token,
-            space_secrets=[{"key": "PORT", "value": "7860"}]
+            token=token
         )
         print(f">> Space verified/created: https://huggingface.co/spaces/{repo_id}")
     except Exception as e:
@@ -69,3 +102,4 @@ def deploy(token: str = None):
 
 if __name__ == "__main__":
     deploy()
+

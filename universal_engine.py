@@ -61,3 +61,4 @@ class UniversalAgentEngine:
             probs = self.intent_pipeline.predict_proba([cleaned])[0]
             all_probs.append(probs)
         return np.array(all_probs)
+
