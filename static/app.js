@@ -38,10 +38,13 @@ document.addEventListener("DOMContentLoaded", () => {
   if (userInput) userInput.focus();
 });
 
+// Remote Production Backend on Render
+const REMOTE_BACKEND_URL = "https://bawago-ai-backend.onrender.com";
+
 // Check Server / Model Health
 async function checkAgentStatus() {
   try {
-    const res = await fetch("/api/status");
+    const res = await fetch(`${REMOTE_BACKEND_URL}/api/status`);
     const data = await res.json();
     if (data.status === "Online" && statusText) {
       statusText.innerText = "BawaGo Support · Online";
@@ -81,7 +84,7 @@ async function sendMessage(text) {
 
   try {
     const startTime = performance.now();
-    const res = await fetch("/api/chat", {
+    const res = await fetch(`${REMOTE_BACKEND_URL}/api/chat`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ 
@@ -302,7 +305,7 @@ async function resetConversation() {
   sessionStorage.setItem("bawago_agent_session_id", sessionId);
 
   try {
-    await fetch("/api/reset", {
+    await fetch(`${REMOTE_BACKEND_URL}/api/reset`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ session_id: sessionId })
@@ -333,7 +336,7 @@ async function sendFeedback(btn, intent, score) {
   }
 
   try {
-    await fetch("/api/feedback", {
+    await fetch(`${REMOTE_BACKEND_URL}/api/feedback`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
