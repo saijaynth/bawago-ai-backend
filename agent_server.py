@@ -329,15 +329,43 @@ class IsolatedAgentHandler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):
         self.send_response(200)
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, HEAD, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
         self.end_headers()
+
+    def do_HEAD(self):
+        parsed = urlparse(self.path)
+        path = parsed.path
+
+        # Handle health check and root endpoints cleanly for Uptime monitors
+        if path in ["/", "/index.html", "/healthz", "/api/health", "/api/status"]:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain; charset=utf-8" if path == "/healthz" else "application/json" if path.startswith("/api/") else "text/html; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+        elif os.path.exists(os.path.join(STATIC_DIR, path.lstrip("/"))):
+            self.send_response(200)
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+        else:
+            self.send_response(404)
+            self.end_headers()
 
     def do_GET(self):
         parsed = urlparse(self.path)
         path = parsed.path
 
-        if path == "/" or path == "/index.html":
+        if path in ["/healthz", "/api/health"]:
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Cache-Control", "no-cache")
+            body = b"OK"
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+        elif path == "/" or path == "/index.html":
             self._serve_file(os.path.join(STATIC_DIR, "index.html"))
         elif path.startswith("/static/"):
             rel_path = path[len("/static/"):]
