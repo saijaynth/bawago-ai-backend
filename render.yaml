@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: bawago-ai-backend
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: python agent_server.py 0.0.0.0 $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: HF_MODEL_REPO
+        value: jaay2/bawago-universal-model
+
