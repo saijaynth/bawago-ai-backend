@@ -16,16 +16,18 @@
     <header class="chat-header">
       <div class="agent-profile">
         <div class="agent-avatar-wrap">
-          <div class="agent-avatar">🤖</div>
-          <span class="online-indicator" title="Model Online"></span>
+          <div class="agent-avatar">
+            <img src="bawa-avatar.png" alt="Bawa" class="agent-avatar-img">
+          </div>
+          <span class="online-indicator" title="Assistant Online"></span>
         </div>
         <div class="agent-meta">
           <div class="agent-name-row">
             <h1 class="agent-name">Bawa</h1>
-            <span class="agent-badge">Universal AI Guide</span>
+            <span class="agent-badge">AI Assistant</span>
             <span class="context-pill" id="context-pill" style="display: none;"></span>
           </div>
-          <p class="agent-status" id="agent-status-text">BawaGo Universal AI Guide · All 7 Verticals Online</p>
+          <p class="agent-status" id="agent-status-text">BawaGo Support · Online</p>
         </div>
       </div>
 
@@ -46,10 +48,12 @@
     <main class="chat-messages" id="chat-stream">
       <!-- Welcome Card -->
       <div class="welcome-card" id="welcome-card">
-        <div class="welcome-icon">👋</div>
+        <div class="welcome-avatar-wrap">
+          <img src="bawa-avatar.png" alt="Bawa" class="welcome-avatar-img">
+        </div>
         <h2 class="welcome-title">Welcome to BawaGo!</h2>
         <p class="welcome-text">
-          I am <strong>Bawa</strong>, your universal AI guide for BawaGo. I have real-time memory and comprehensive knowledge covering the entire platform: sharing flight baggage kilos, SafeVault escrow protection, intercity carpooling, Crave home-cooked meals, homestays, overseas shopping, farm-fresh produce, and account safety.
+          Hi! I am <strong>Bawa</strong>, your friendly AI guide for BawaGo. Ask me anything about sharing baggage kilos on flights, SafeVault escrow protection, intercity carpooling, home-cooked regional meals, homestays, or sending urgent parcels.
         </p>
 
         <div class="starter-chips-label">Popular topics you can ask about:</div>
@@ -71,13 +75,15 @@
 
     <!-- Typing Indicator (Hidden by default) -->
     <div class="typing-indicator" id="typing-indicator">
-      <div class="typing-avatar">🤖</div>
+      <div class="typing-avatar">
+        <img src="bawa-avatar.png" alt="Bawa" class="typing-avatar-img">
+      </div>
       <div class="typing-dots">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <span class="typing-label">Bawa is thinking...</span>
+      <span class="typing-label">Bawa is typing...</span>
     </div>
 
     <!-- Dynamic Quick-Reply Chips Bar -->
@@ -103,7 +109,7 @@
         </button>
       </form>
       <div class="input-disclaimer">
-        BawaGo Interactive Agent · ML-grounded · Zero canned repetition
+        BawaGo Support · Always here to help
       </div>
     </footer>
   </div>

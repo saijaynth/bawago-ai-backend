@@ -44,10 +44,10 @@ async function checkAgentStatus() {
     const res = await fetch("/api/status");
     const data = await res.json();
     if (data.status === "Online" && statusText) {
-      statusText.innerText = `BawaGo Universal AI Guide · Online (${data.intents_registered}+ Topics · All 7 Verticals)`;
+      statusText.innerText = "BawaGo Support · Online";
     }
   } catch (err) {
-    if (statusText) statusText.innerText = "BawaGo Universal AI Guide · Online (130+ Topics · All 7 Verticals)";
+    if (statusText) statusText.innerText = "BawaGo Support · Online";
   }
 }
 
@@ -167,16 +167,19 @@ function renderBotInteractiveResponse(data) {
 
   bubble.innerHTML = `
     <div class="bubble-header">
-      <span class="bot-badge-name">🤖 Bawa</span>
+      <div class="bot-identity">
+        <img src="bawa-avatar.png" alt="Bawa" class="bot-badge-img">
+        <span class="bot-badge-name">Bawa</span>
+      </div>
       ${categoryBadge}
     </div>
     <div class="bubble-text" id="stream-target-${Date.now()}"></div>
     <div class="card-container"></div>
     <div class="feedback-row">
-      <button class="feedback-btn" onclick="sendFeedback(this, '${escapeHtml(data.intent || '')}', 1)" title="Helpful answer">
+      <button class="feedback-btn" type="button" onclick="sendFeedback(this, '${escapeHtml(data.intent || '')}', 1)" title="Helpful answer">
         👍 Helpful
       </button>
-      <button class="feedback-btn" onclick="sendFeedback(this, '${escapeHtml(data.intent || '')}', 0)" title="Not helpful">
+      <button class="feedback-btn" type="button" onclick="sendFeedback(this, '${escapeHtml(data.intent || '')}', 0)" title="Not helpful">
         👎 Needs improvement
       </button>
       <span class="bubble-meta" style="margin-left: auto;">${timeStr}</span>
@@ -280,6 +283,7 @@ function renderDynamicChips(chips) {
   chips.forEach(chipText => {
     const btn = document.createElement("button");
     btn.className = "dynamic-chip";
+    btn.type = "button";
     btn.innerText = chipText;
     btn.onclick = () => {
       const clean = chipText.replace(/^[^\w\s]+/, '').trim();
@@ -307,7 +311,7 @@ async function resetConversation() {
 
   chatStream.innerHTML = "";
   const welcome = document.getElementById("welcome-card");
-  if (welcome) welcome.style.display = "block";
+  if (welcome) welcome.style.display = "flex";
   if (dynamicChipsBar) dynamicChipsBar.style.display = "none";
   if (contextPill) contextPill.style.display = "none";
   if (userInput) userInput.focus();
@@ -316,8 +320,17 @@ async function resetConversation() {
 // Send Feedback
 async function sendFeedback(btn, intent, score) {
   const row = btn.parentNode;
-  row.querySelectorAll(".feedback-btn").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
+  row.querySelectorAll(".feedback-btn").forEach(b => {
+    b.classList.remove("active-helpful", "active-improve");
+  });
+
+  if (score === 1) {
+    btn.classList.add("active-helpful");
+    btn.innerHTML = "✓ Helpful";
+  } else {
+    btn.classList.add("active-improve");
+    btn.innerHTML = "✓ Feedback noted";
+  }
 
   try {
     await fetch("/api/feedback", {

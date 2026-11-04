@@ -156,8 +156,8 @@ INTENT_VARIATIONS = {
     ],
     "baggage-laptop-electronics": [
         "Yes, you can carry a laptop or electronic gadget! Airlines require all laptops, tablets, and lithium-powered devices to be carried in your cabin hand-carry luggage—never in checked baggage. For safety and customs clearance, the sender must provide an original purchase invoice, and the device should power on during your mutual airport inspection.",
-        "Laptops and electronic devices are permitted provided they are carried in cabin baggage for lithium fire safety. Make sure to have the original purchase receipt and verify that the device turns on during handover.",
-        "For electronic gadgets, cabin carry is mandatory under aviation rules. The sender must provide purchase documentation, and both parties verify device functionality at airport check-in."
+        "Laptops and electronic devices are permitted provided they are carried in cabin baggage for lithium fire safety. Make sure to have the original purchase invoice and verify that the device turns on during handover.",
+        "For electronic gadgets, cabin carry is mandatory under aviation rules. The sender must provide an original purchase invoice, and both parties verify device functionality at airport check-in."
     ],
     "ride-intercity": [
         "BawaGo Ride connects drivers who have empty car seats with passengers heading the same way. It is a genuine cost-sharing carpool where fares are based on fuel and tolls, saving you up to 60% compared to private cabs.",
